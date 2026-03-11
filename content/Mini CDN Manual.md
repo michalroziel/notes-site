@@ -9,7 +9,7 @@ Die Anwendung beruht auf einer ```Client-Server``` Architektur und wurde durch e
 ```multi maven``` Projekt implementiert. 
 
 
-### Vorraussetzungen / Prerequisities  : Linux / OSX
+### Vorraussetzungen / Prerequisities  @ Linux / OSX
 ```shell
 java -version     # sollte Java 21 sein
 mvn -version
