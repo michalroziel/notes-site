@@ -3,7 +3,7 @@
   
 
 ## Was ist ein Betriebssystem?
-
+	
 Ein Betriebssystem ist eine Software, die die Teile eines Computers wie Prozessor, Speicher und Geräte verwaltet und für Programme nutzbar macht.
 
   

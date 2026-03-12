@@ -63,27 +63,24 @@ Aufgabe 4-4: Übungen zu Diensten und Units
 
 Aufgabe 4-5: Übungen zur Prozesssteuerung
 
-1. **Ein Prozess mit der PID 12345 benötigt eine geordnete Beendigung, damit er seine**  
+ **Ein Prozess mit der PID 12345 benötigt eine geordnete Beendigung, damit er seine**  
     **Daten sichern kann. Sie möchten verhindern, dass wichtige Daten verloren gehen.**  
       
-    _**• Welchen Befehl würden Sie ausführen, um den Prozess geordnet zu beenden?**_  
-    _**• Was passiert, wenn der Prozess nicht auf das erste Signal reagiert?**_  
-      
+    Welchen Befehl würden Sie ausführen, um den Prozess geordnet zu beenden?
+    
+    Was passiert, wenn der Prozess nicht auf das erste Signal reagiert?
     A) Geordnet beenden benutze ich den Command ==Kill -TERM 12345==  
     B) Dann bennede ich es direkt mit dem Command ==kill -KILL 12345==  
     
 
-1. **Sie stellen fest, dass mehrere Instanzen des Programms firefox auf Ihrem System**  
-    **laufen und das System stark belasten. Sie möchten alle Instanzen von firefox**  
-    **sofort beenden**  
+##### Sie stellen fest, dass mehrere Instanzen des Programms firefox auf Ihrem System  
+    laufen und das System stark belasten. Sie möchten alle Instanzen von firefox ofort beenden
       
-    _**• Welchen Befehl verwenden Sie, um alle Prozesse mit dem Namen firefox**_  
-    _**gewaltsam zu beenden?**_  
+    Welchen Befehl verwenden Sie, um alle Prozesse mit dem Namen firefox
+    gewaltsam zu beenden?
       
     Vielleicht mit dem befehl ==pkill -Kill -x firefox  
-      
-    ==
-
+    
 **Aufgabe 4-6: Übung zum Exit-Status**  
 **Sie haben einen Befehl ausgeführt, um Dateien nach einem bestimmten Muster zu durchsuchen, erhalten aber keine Rückmeldung, ob das Muster gefunden wurde oder ob ein**  
 **Fehler aufgetreten ist.**  
