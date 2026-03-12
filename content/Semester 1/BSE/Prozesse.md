@@ -5,7 +5,7 @@
 ## Was sind Prozesse ?
 
 
-```Ein Prozess``` ist wie ein  ```kleines Männchen```, das in deinem Computer Aufgaben erledigt.  
+Ein Prozess ist wie ein  ```kleines Männchen```, das in deinem Computer Aufgaben erledigt.  
 Zum Beispiel, wenn du ein ==SPIEL== spielst, gibt es Männchen die das ermöglichen.**Jedes Männchen** bekommt seine eigene **Nummer** ==(PID)==.Damit weist der Computer welche männchen was tuhen. **Prozesse** haben **immer ihre eigenen Bereich,** damit sie nicht in die Arbeit von anderen einmischen können.
 
 ---
