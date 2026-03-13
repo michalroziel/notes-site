@@ -1,8 +1,8 @@
-# Säuren & Basen
+# Säuren und Basen
 
 ## Übersicht über bekannte Säuren && Basen
 
-![](PH%20und%20pOH%20-%20Werte/Screenshot_2025-10-20_at_17.34.39.png)
+![](pH-%20und%20pOH-Werte/Screenshot_2025-10-20_at_17.34.39.png)
 
 ## Der $`K_s`$Ks​﻿ Wert
 
@@ -36,7 +36,7 @@ Puffer bestehen immer aus einer schwachen Säure und Ihrem Salz. Nach der Hender
 
 ## Siehe auch
 
-- [[PH und pOH - Werte]]
-- [[Stöchiometrie]]
+- [[pH- und pOH-Werte]]
+- [[Stöchiometrie und nukleophile Substitution]]
 - [[Kinetik]]
 - [[Thermodynamik]]

@@ -1,4 +1,4 @@
-# Molekulare Strukturen
+# Molekulare Strukturen und Bindungen
 
 Molekulare Strukturen in der organischen Chemie beschreiben, wie ein Molekül räumlich und verbindungsgemäß angeordnet ist.
 
@@ -44,7 +44,7 @@ Diese bestehen aus einer Sigma-Bindung und 2 Pi-Bindungen
 
 ## Siehe auch
 
-- [[AC Übung - VSEPR & Bindungstyp]]
-- [[Alkane & Alkine]]
-- [[Orbital Modell]]
-- [[Stöchiometrie]]
+- [[VSEPR und Bindungstyp]]
+- [[Alkane und Alkine]]
+- [[Orbitalmodell]]
+- [[Stöchiometrie und nukleophile Substitution]]

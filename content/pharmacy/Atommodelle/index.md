@@ -19,7 +19,7 @@
 
 ## Siehe auch
 
-- [[Das PSE]]
-- [[Orbital Modell]]
-- [[Stabile Elemente & OktettRegel]]
-- [[Radioatkiver Zerfall]]
+- [[Periodensystem]]
+- [[Orbitalmodell]]
+- [[Stabile Elemente und Oktettregel]]
+- [[Radioaktiver Zerfall]]

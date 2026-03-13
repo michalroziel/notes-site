@@ -1,4 +1,4 @@
-# Stabile Elemente & OktettRegel
+# Stabile Elemente und Oktettregel
 
 Edelgase sind die stabilsten Elemente im Periodensystem.
 
@@ -20,11 +20,11 @@ Ein NatriumAtom hat auf der äußersten Schale` 1 Elektron`, damit es zu einer o
 
 ## Siehe auch
 
-- [[Das PSE]]
+- [[Periodensystem]]
 - [[Atommodelle]]
-- [[Orbital Modell]]
-- [[Molekulare Strukturen]]
-- [[ElektroChemie]]
+- [[Orbitalmodell]]
+- [[Molekulare Strukturen und Bindungen]]
+- [[Elektrochemie]]
 
 Es besteht aus dem Natrium-Kation (Na+) und dem Chlorid-Anion (Cl−)
 

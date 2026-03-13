@@ -36,7 +36,7 @@ Sie erkennen und eliminieren infizierte Zellen
 
 ## Siehe auch
 
-- [[Bio Chemie]]
+- [[Biochemie]]
 - [[Zelle - Pflanze & Tier]]
-- [[Herzkreislauf]]
+- [[Herz-Kreislauf-System]]
 - [[Merkzettel]]

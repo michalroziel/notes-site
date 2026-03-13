@@ -1,9 +1,9 @@
 # PhaST
 
-[🪐PhaST Info Broschüre](PhaST Info Broschüre.md)
+[🪐PhaST Info Broschüre](PhaST%20Info%20Brosch%C3%BCre.md)
 
 ## Siehe auch
 
-- [[Studium Anmeldung]]
-- [[Herzkreislauf]]
+- [[Studienanmeldung]]
+- [[Herz-Kreislauf-System]]
 - [[Merkzettel]]

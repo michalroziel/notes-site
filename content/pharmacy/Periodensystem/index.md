@@ -1,4 +1,4 @@
-# Das PSE
+# Periodensystem
 
 ![](image.png)
 
@@ -96,8 +96,8 @@ Die Lewis Formel :
 
 ## Siehe auch
 
-- [[Stabile Elemente & OktettRegel]]
+- [[Stabile Elemente und Oktettregel]]
 - [[Atommodelle]]
-- [[Orbital Modell]]
-- [[ElektroChemie]]
-- [[AC Übung - VSEPR & Bindungstyp]]
+- [[Orbitalmodell]]
+- [[Elektrochemie]]
+- [[VSEPR und Bindungstyp]]

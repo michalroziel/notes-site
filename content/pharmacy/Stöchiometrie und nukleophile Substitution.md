@@ -1,4 +1,4 @@
-# Stöchiometrie
+# Stöchiometrie und nukleophile Substitution
 
 gesättigte KOhlenWasserstoffe : Keine DoppelBindung
 
@@ -46,7 +46,7 @@ SN1 : **S**ubstitution, **N**ukleophil, 1 Teilchen beteiligt
 
 ## Siehe auch
 
-- [[Molekulare Strukturen]]
-- [[Alkane & Alkine]]
-- [[Säuren & Basen]]
+- [[Molekulare Strukturen und Bindungen]]
+- [[Alkane und Alkine]]
+- [[Säuren und Basen]]
 - [[Kinetik]]

@@ -44,7 +44,7 @@ Es gibt ungefähr 21 Aminosäuren
 
 ## Siehe auch
 
-- [[Bio Chemie]]
-- [[Molekulare Strukturen]]
-- [[Stöchiometrie]]
+- [[Biochemie]]
+- [[Molekulare Strukturen und Bindungen]]
+- [[Stöchiometrie und nukleophile Substitution]]
 - [[Proteinbiosynthese]]

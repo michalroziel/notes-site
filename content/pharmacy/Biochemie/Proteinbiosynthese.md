@@ -10,7 +10,7 @@
 
 ## Siehe auch
 
-- [[Bio Chemie]]
+- [[Biochemie]]
 - [[Zelle - Pflanze & Tier]]
 - [[Vererbungslehre]]
 - [[Merkzettel]]

@@ -13,6 +13,6 @@ pro 10 Grad verdoppelt sich die Reaktionsgeschwindigkeit
 ## Siehe auch
 
 - [[Thermodynamik]]
-- [[Säuren & Basen]]
-- [[PH und pOH - Werte]]
-- [[Radioatkiver Zerfall]]
+- [[Säuren und Basen]]
+- [[pH- und pOH-Werte]]
+- [[Radioaktiver Zerfall]]

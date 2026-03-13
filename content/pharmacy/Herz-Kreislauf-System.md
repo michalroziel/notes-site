@@ -1,4 +1,4 @@
-# Herzkreislauf
+# Herz-Kreislauf-System
 
 ## Grundaufbau von Herz und Gefäßen
 
@@ -67,4 +67,4 @@ Ladme oder Adme
 - [[PhaST]]
 - [[PhaST Info Broschüre]]
 - [[Immunbiologie]]
-- [[Studium Anmeldung]]
+- [[Studienanmeldung]]

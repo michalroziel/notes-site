@@ -30,6 +30,6 @@ Wenn die Entropie eines geschlossenen Systems zu einem bestimmten Zeitpunkt eine
 ## Siehe auch
 
 - [[Kinetik]]
-- [[ElektroChemie]]
-- [[Säuren & Basen]]
-- [[PH und pOH - Werte]]
+- [[Elektrochemie]]
+- [[Säuren und Basen]]
+- [[pH- und pOH-Werte]]

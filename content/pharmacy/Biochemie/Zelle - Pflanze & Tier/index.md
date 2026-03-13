@@ -37,7 +37,7 @@
 
 ## Siehe auch
 
-- [[Bio Chemie]]
+- [[Biochemie]]
 - [[Proteinbiosynthese]]
 - [[Immunbiologie]]
 - [[Vererbungslehre]]

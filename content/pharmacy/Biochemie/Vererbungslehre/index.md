@@ -2,7 +2,7 @@
 
 ## Siehe auch
 
-- [[Bio Chemie]]
+- [[Biochemie]]
 - [[Zelle - Pflanze & Tier]]
 - [[Proteinbiosynthese]]
 - [[Merkzettel]]

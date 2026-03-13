@@ -1,4 +1,4 @@
-# Studium Anmeldung
+# Studienanmeldung
 
 ### Anerkennung von Leistungen
 
@@ -12,4 +12,4 @@
 
 - [[PhaST]]
 - [[PhaST Info Broschüre]]
-- [[Herzkreislauf]]
+- [[Herz-Kreislauf-System]]

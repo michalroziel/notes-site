@@ -1,4 +1,4 @@
-# Radioatkiver Zerfall
+# Radioaktiver Zerfall
 
 ## 1. Alpha-Zerfall (α-Zerfall)
 
@@ -33,7 +33,7 @@ Es gibt zwei Hauptformen des Beta-Zerfalls:
 ## Siehe auch
 
 - [[Kinetik]]
-- [[ElektroChemie]]
+- [[Elektrochemie]]
 - [[Atommodelle]]
 - [[Thermodynamik]]
 

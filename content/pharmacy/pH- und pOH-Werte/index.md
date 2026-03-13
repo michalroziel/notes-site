@@ -1,4 +1,4 @@
-# PH und pOH - Werte
+# pH- und pOH-Werte
 
 Der PH-Wert ist definiert als negativer dekadischer Logarithmus der H⁺ Inonenkonzentration.
 
@@ -50,7 +50,7 @@ der pOH-Wert ist defininiert als negadiver dekadischer Logarithmus der OH^- Ione
 
 ## Siehe auch
 
-- [[Säuren & Basen]]
-- [[Stöchiometrie]]
+- [[Säuren und Basen]]
+- [[Stöchiometrie und nukleophile Substitution]]
 - [[Kinetik]]
 - [[Thermodynamik]]

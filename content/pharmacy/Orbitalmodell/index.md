@@ -1,4 +1,4 @@
-# Orbital Modell
+# Orbitalmodell
 
 > Es gibt eine geewisse Aufenthaltswahrscheinlichkeit
 
@@ -13,6 +13,6 @@ SP3 Hybrid Orbitale
 ## Siehe auch
 
 - [[Atommodelle]]
-- [[Das PSE]]
-- [[Molekulare Strukturen]]
-- [[AC Übung - VSEPR & Bindungstyp]]
+- [[Periodensystem]]
+- [[Molekulare Strukturen und Bindungen]]
+- [[VSEPR und Bindungstyp]]

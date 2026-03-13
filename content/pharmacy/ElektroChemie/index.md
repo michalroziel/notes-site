@@ -1,4 +1,4 @@
-# ElektroChemie
+# Elektrochemie
 
 > 💡
 >
@@ -93,7 +93,7 @@ Hierbei wird die Rekation zur Stromgewinnung genutzt.
 
 ## Siehe auch
 
-- [[Das PSE]]
-- [[Stabile Elemente & OktettRegel]]
+- [[Periodensystem]]
+- [[Stabile Elemente und Oktettregel]]
 - [[Thermodynamik]]
-- [[Radioatkiver Zerfall]]
+- [[Radioaktiver Zerfall]]

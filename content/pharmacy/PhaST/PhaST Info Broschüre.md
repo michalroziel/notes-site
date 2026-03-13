@@ -58,6 +58,6 @@ Das is auch gut fuer das raeumliche Denken!
 ## Siehe auch
 
 - [[PhaST]]
-- [[Studium Anmeldung]]
-- [[Herzkreislauf]]
+- [[Studienanmeldung]]
+- [[Herz-Kreislauf-System]]
 - [[Merkzettel]]

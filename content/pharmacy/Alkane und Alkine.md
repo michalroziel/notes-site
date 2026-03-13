@@ -1,4 +1,4 @@
-# Alkane & Alkine
+# Alkane und Alkine
 
 Alkane und Alkine gehören zu den `KohlenwasserStoffAtomen` , diese bestehen nur aus Kohlenstoff (`C`) und Wasserstoff (`H`).
 
@@ -16,9 +16,9 @@ Der Untershcied liegt in der Sättigung der Atome - d.h wie viele WasserstoffAto
 
 ## Siehe auch
 
-- [[Molekulare Strukturen]]
-- [[AC Übung - VSEPR & Bindungstyp]]
-- [[Stöchiometrie]]
-- [[Orbital Modell]]
+- [[Molekulare Strukturen und Bindungen]]
+- [[VSEPR und Bindungstyp]]
+- [[Stöchiometrie und nukleophile Substitution]]
+- [[Orbitalmodell]]
 
 Da Methan ein Alkan ist. muss das KohlenstoffAtom 4 `Einfachbindungen` mit den WasserstoffAtomen eingehen. (Um die **Vierwertigkeit**) zu erfüllen.
