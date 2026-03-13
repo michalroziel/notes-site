@@ -1,5 +1,3 @@
----
-
 ## Zur Erinnerung: Was sind Daemons?
 
 **Daemons** sind wie unsichtbare Helfer im Computuer, die im Hintergrund arbeiten. Sie starten oft automatisch, wenn der Computer hochfährt und warten darauf, ihre Aufgaben zu erledigen.  
