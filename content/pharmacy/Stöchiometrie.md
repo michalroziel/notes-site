@@ -43,3 +43,10 @@ Diese unterscheiden sich darin, wie der Austausch stattfidet.
 SN2 : **S**ubstitution, **N**ukleophil, **2** Teilchen beteiligt
 
 SN1 : **S**ubstitution, **N**ukleophil, 1 Teilchen beteiligt
+
+## Siehe auch
+
+- [[Molekulare Strukturen]]
+- [[Alkane & Alkine]]
+- [[Säuren & Basen]]
+- [[Kinetik]]

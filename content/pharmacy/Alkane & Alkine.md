@@ -14,4 +14,11 @@ Der Untershcied liegt in der Sättigung der Atome - d.h wie viele WasserstoffAto
 
 ### Beispiel Alkane : Methan (CH4)
 
+## Siehe auch
+
+- [[Molekulare Strukturen]]
+- [[AC Übung - VSEPR & Bindungstyp]]
+- [[Stöchiometrie]]
+- [[Orbital Modell]]
+
 Da Methan ein Alkan ist. muss das KohlenstoffAtom 4 `Einfachbindungen` mit den WasserstoffAtomen eingehen. (Um die **Vierwertigkeit**) zu erfüllen.

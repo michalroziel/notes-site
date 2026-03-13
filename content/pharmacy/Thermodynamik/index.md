@@ -26,3 +26,10 @@ Wenn die Entropie eines geschlossenen Systems zu einem bestimmten Zeitpunkt eine
 # Grundbegriffe : System und Umgebung
 
 ![](Thermodynamik/Screenshot_2025-11-23_at_11.28.40.png)
+
+## Siehe auch
+
+- [[Kinetik]]
+- [[ElektroChemie]]
+- [[Säuren & Basen]]
+- [[PH und pOH - Werte]]

@@ -47,3 +47,10 @@ der pOH-Wert ist defininiert als negadiver dekadischer Logarithmus der OH^- Ione
 ## Chromatographie
 
 ![](PH%20und%20pOH%20-%20Werte/Screenshot_2025-10-20_at_18.04.23.png)
+
+## Siehe auch
+
+- [[Säuren & Basen]]
+- [[Stöchiometrie]]
+- [[Kinetik]]
+- [[Thermodynamik]]

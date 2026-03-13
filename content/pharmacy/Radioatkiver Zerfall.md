@@ -30,6 +30,13 @@ Es gibt zwei Hauptformen des Beta-Zerfalls:
 
 ### a) Beta-Minus-Zerfall (β⁻-Zerfall)
 
+## Siehe auch
+
+- [[Kinetik]]
+- [[ElektroChemie]]
+- [[Atommodelle]]
+- [[Thermodynamik]]
+
 **Was passiert:** Ein **Neutron** im Kern wandelt sich in ein **Proton** um, wobei ein **Elektron** (β⁻-Teilchen) und ein Antineutrino emittiert werden.
 
 ``` tex

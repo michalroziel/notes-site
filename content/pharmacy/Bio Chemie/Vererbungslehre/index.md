@@ -1,5 +1,12 @@
 # Vererbungslehre
 
+## Siehe auch
+
+- [[Bio Chemie]]
+- [[Zelle - Pflanze & Tier]]
+- [[Proteinbiosynthese]]
+- [[Merkzettel]]
+
 Mendelsche Gesetze
 
 ![](Vererbungslehre/image.png)

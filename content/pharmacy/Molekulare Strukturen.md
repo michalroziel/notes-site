@@ -41,3 +41,10 @@ Diese bestehen aus einer Sigma-Bindung und 2 Pi-Bindungen
 > 💡
 >
 > sp3 kommt immer dann vor wenn nur Einfach-Bindnungen vorliegen
+
+## Siehe auch
+
+- [[AC Übung - VSEPR & Bindungstyp]]
+- [[Alkane & Alkine]]
+- [[Orbital Modell]]
+- [[Stöchiometrie]]

@@ -90,3 +90,10 @@ Hierbei wird die Rekation zur Stromgewinnung genutzt.
 ![](ElektroChemie/image%202.png)
 
 ![](ElektroChemie/image%203.png)
+
+## Siehe auch
+
+- [[Das PSE]]
+- [[Stabile Elemente & OktettRegel]]
+- [[Thermodynamik]]
+- [[Radioatkiver Zerfall]]

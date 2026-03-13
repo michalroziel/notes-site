@@ -17,3 +17,10 @@
 - Richtig ist (E): Weißes Knochenmark.
 
 - Merke: Milz, Rachenmandeln, Thymusdrüse und Lymphknoten sind klassische lymphatische Organe; das rote Knochenmark ist wichtig für die Blutbildung, „weißes Knochenmark“ ist eher Fettgewebe und kein zentrales Immunorgan.
+
+## Siehe auch
+
+- [[Proteinbiosynthese]]
+- [[Immunbiologie]]
+- [[Vererbungslehre]]
+- [[PhaST]]

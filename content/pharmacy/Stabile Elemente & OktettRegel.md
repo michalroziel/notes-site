@@ -18,6 +18,14 @@ Ein NatriumAtom hat auf der äußersten Schale` 1 Elektron`, damit es zu einer o
 
 ### Beispiel - Kochsalz (NaCl).
 
+## Siehe auch
+
+- [[Das PSE]]
+- [[Atommodelle]]
+- [[Orbital Modell]]
+- [[Molekulare Strukturen]]
+- [[ElektroChemie]]
+
 Es besteht aus dem Natrium-Kation (Na+) und dem Chlorid-Anion (Cl−)
 
 Das Natrium Atom gibt dem Chlorid Atom das eine ValenzElektron, Sie bilden Ein Ionengitter. Sie werden voneinander durch Elektrostatische Kräfte (Coulom-Kraft) angezogen.

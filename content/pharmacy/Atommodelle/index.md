@@ -16,3 +16,10 @@
   - Spezifische, feste Energie Spektren
 
 - Flamm Färbungs Experimente → Elemente aufgrund von Farbe identifiziern
+
+## Siehe auch
+
+- [[Das PSE]]
+- [[Orbital Modell]]
+- [[Stabile Elemente & OktettRegel]]
+- [[Radioatkiver Zerfall]]

@@ -7,3 +7,9 @@
 ### Fachrichtung Pharmazie
 
 <https://www.uni-saarland.de/fachrichtung/pharmazie/studieninteressierte/faq.html#c587487>
+
+## Siehe auch
+
+- [[PhaST]]
+- [[PhaST Info Broschüre]]
+- [[Herzkreislauf]]

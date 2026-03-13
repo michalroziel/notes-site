@@ -33,3 +33,10 @@ Puffer bestehen immer aus einer schwachen Säure und Ihrem Salz. Nach der Hender
 - den PufferBereich ermitteln
 
 - mit entsprechenden Angaben auch die Zusammensetzung des Puffers berechnen
+
+## Siehe auch
+
+- [[PH und pOH - Werte]]
+- [[Stöchiometrie]]
+- [[Kinetik]]
+- [[Thermodynamik]]

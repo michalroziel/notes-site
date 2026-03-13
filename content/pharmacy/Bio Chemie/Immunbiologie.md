@@ -33,3 +33,10 @@ Bei der Passive Immunisierung gilt Verabreichung von bereits gebildeten Antikör
 T-Zellen, welche ein Teil von Lymphozyten sind haben eine Zentrale Rolle in der Immunabwehr.
 
 Sie erkennen und eliminieren infizierte Zellen
+
+## Siehe auch
+
+- [[Bio Chemie]]
+- [[Zelle - Pflanze & Tier]]
+- [[Herzkreislauf]]
+- [[Merkzettel]]

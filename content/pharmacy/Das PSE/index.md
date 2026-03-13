@@ -93,3 +93,11 @@ Die Lewis Formel :
 | **Atomradius** | Nimmt ab (stärkere Kernladung zieht Elektronen stärker an) | Nimmt zu (zusätzliche Elektronenschalen) |
 | **Ionisierungsenergie** | Nimmt zu (mehr Energie nötig, um Elektronen zu entfernen) | Nimmt ab (Elektronen leichter entfernbar) |
 | **Metallcharakter** | Nimmt ab | Nimmt zu |
+
+## Siehe auch
+
+- [[Stabile Elemente & OktettRegel]]
+- [[Atommodelle]]
+- [[Orbital Modell]]
+- [[ElektroChemie]]
+- [[AC Übung - VSEPR & Bindungstyp]]

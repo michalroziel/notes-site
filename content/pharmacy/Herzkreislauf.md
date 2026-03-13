@@ -61,3 +61,10 @@ Ladme oder Adme
 - Du solltest Schemazeichnungen von Herz und Kreislauf lesen, Pfeile für Blutfluss richtig deuten und Begriffe wie „sauerstoffreich/sauerstoffarm“ sicher zuordnen können.
 
 - Typisch sind Multiple-Choice-Aufgaben, bei denen du kurze Texte oder Diagramme interpretierst (Biologie-Anteil im PhaST, inkl. Herz-Kreislauf).
+
+## Siehe auch
+
+- [[PhaST]]
+- [[PhaST Info Broschüre]]
+- [[Immunbiologie]]
+- [[Studium Anmeldung]]

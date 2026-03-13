@@ -8,6 +8,13 @@
 
 ### 2. Translation
 
+## Siehe auch
+
+- [[Bio Chemie]]
+- [[Zelle - Pflanze & Tier]]
+- [[Vererbungslehre]]
+- [[Merkzettel]]
+
 - Die mRNA bindet an ein Ribosom
 
 - Es entsteht eine wachsende Polypeptidkette

@@ -35,6 +35,13 @@
 
 ### Visikel
 
+## Siehe auch
+
+- [[Bio Chemie]]
+- [[Proteinbiosynthese]]
+- [[Immunbiologie]]
+- [[Vererbungslehre]]
+
 Visikel werden von dem Golgi Apparat ausgeschleust
 
 - Vereinen sich mit der Zellwand, was im Visikel enthalten ist, wird nach außen geschleust.

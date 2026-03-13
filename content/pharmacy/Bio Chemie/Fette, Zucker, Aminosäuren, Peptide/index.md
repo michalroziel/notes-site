@@ -41,3 +41,10 @@ Es gibt ungefähr 21 Aminosäuren
 ![](Fette,%20Zucker,%20Aminos%C3%A4uren,%20Peptide/Screenshot_2025-11-23_at_11.52.59.png)
 
 ![](Fette,%20Zucker,%20Aminos%C3%A4uren,%20Peptide/Screenshot_2025-11-23_at_11.59.09.png)
+
+## Siehe auch
+
+- [[Bio Chemie]]
+- [[Molekulare Strukturen]]
+- [[Stöchiometrie]]
+- [[Proteinbiosynthese]]

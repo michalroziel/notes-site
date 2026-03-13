@@ -14,11 +14,11 @@
 
 [🏢PH und pOH - Werte](PH und pOH - Werte/index.md)
 
-[🫕Säuren & Basen](Pharmacy/S%C3%A4uren%20&%20Basen%2029548969c239804aa7fcdfe49f5eb24a.html)
+[🫕Säuren & Basen](Säuren & Basen.md)
 
 [🎄ElektroChemie](ElektroChemie/index.md)
 
-[🔎Stöchiometrie](Pharmacy/St%C3%B6chiometrie%202a748969c23980d490a8feba7a509ae1.html)
+[🔎Stöchiometrie](Stöchiometrie.md)
 
 [🪜Kinetik](Kinetik/index.md)
 
@@ -43,6 +43,8 @@ R und S Nomenklatur
 [📠Herzkreislauf](Herzkreislauf.md)
 
 [🎇Merkzettel](Merkzettel.md)
+
+[🧭 AC Übung - VSEPR & Bindungstyp](AC Übung - VSEPR & Bindungstyp.md)
 
 // Next time :
 
