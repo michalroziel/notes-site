@@ -4,9 +4,9 @@
 
 **Was passiert:** Der Kern emittiert ein **α-Teilchen**, das aus **zwei Protonen und zwei Neutronen** besteht (identisch mit einem Heliumkern).
 
-``` tex
-{}^4_2\text{He}
-```
+$$
+{}^4_2\mathrm{He}
+$$
 
 **Regel (Verschiebungsgesetz):**
 
@@ -16,9 +16,9 @@
 
 **Beispiel:**
 
-``` tex
-{}^A_Z\text{X} \longrightarrow {}^{A-4}_{Z-2}\text{Y} + {}^4_2\text{He}
-```
+$$
+{}^A_Z\mathrm{X} \longrightarrow {}^{A-4}_{Z-2}\mathrm{Y} + {}^4_2\mathrm{He}
+$$
 
 **Eigenschaften der Strahlung:**
 
@@ -39,9 +39,9 @@ Es gibt zwei Hauptformen des Beta-Zerfalls:
 
 **Was passiert:** Ein **Neutron** im Kern wandelt sich in ein **Proton** um, wobei ein **Elektron** (β⁻-Teilchen) und ein Antineutrino emittiert werden.
 
-``` tex
+$$
 \bar{\nu}_e
-```
+$$
 
 **Regel:**
 
@@ -51,9 +51,9 @@ Es gibt zwei Hauptformen des Beta-Zerfalls:
 
 **Beispiel:**
 
-``` tex
-{}^A_Z\text{X} \longrightarrow {}^{A}_{Z+1}\text{Y} + e^- + \bar{\nu}_e
-```
+$$
+{}^A_Z\mathrm{X} \longrightarrow {}^{A}_{Z+1}\mathrm{Y} + e^- + \bar{\nu}_e
+$$
 
 **Eigenschaften der Strahlung:** Mittlere Ionisierungswirkung, mittlere Reichweite (wird durch dünne Aluminiumbleche oder Glas abgeschirmt).
 
@@ -61,9 +61,9 @@ Es gibt zwei Hauptformen des Beta-Zerfalls:
 
 **Was passiert:** Ein **Proton** im Kern wandelt sich in ein **Neutron** um, wobei ein **Positron** (β⁺-Teilchen) und ein Neutrino emittiert werden.
 
-``` tex
+$$
 \nu_e
-```
+$$
 
 **Regel:**
 
@@ -73,9 +73,9 @@ Es gibt zwei Hauptformen des Beta-Zerfalls:
 
 **Beispiel:**
 
-``` tex
-{}^A_Z\text{X} \longrightarrow {}^{A}_{Z-1}\text{Y} + e^+ + \nu_e
-```
+$$
+{}^A_Z\mathrm{X} \longrightarrow {}^{A}_{Z-1}\mathrm{Y} + e^+ + \nu_e
+$$
 
 ## 3. Gamma-Zerfall (γ-Zerfall)
 
