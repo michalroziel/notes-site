@@ -7,7 +7,7 @@ Kein Perpetum Mobile erster Art; Keine Energie aus dem Nichts
 
 dU=dQ+dW
 
-![](Screenshot_2025-11-23_at_11.08.22.png)
+![](Thermodynamik%20-%20Screenshot_2025-11-23_at_11.08.22.png)
 
 ### 2. Haupsatz
 
@@ -15,17 +15,17 @@ Wenn die Entropie eines geschlossenen Systems zu einem bestimmten Zeitpunkt eine
 
 ## Anwendung - Enthalpie
 
-![](Screenshot_2025-11-23_at_11.10.43.png)
+![](Thermodynamik%20-%20Screenshot_2025-11-23_at_11.10.43.png)
 
-![](image.png)
+![](Thermodynamik%20-%20image.png)
 
 ### 3. Hauptsatz
 
-![](Screenshot_2025-11-23_at_11.24.25.png)
+![](Thermodynamik%20-%20Screenshot_2025-11-23_at_11.24.25.png)
 
 # Grundbegriffe : System und Umgebung
 
-![](Screenshot_2025-11-23_at_11.28.40.png)
+![](Thermodynamik%20-%20Screenshot_2025-11-23_at_11.28.40.png)
 
 ## Siehe auch
 

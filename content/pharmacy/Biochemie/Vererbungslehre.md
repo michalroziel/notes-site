@@ -9,10 +9,10 @@
 
 Mendelsche Gesetze
 
-![](image.png)
+![](Vererbungslehre%20-%20image.png)
 
-![](image%201.png)
+![](Vererbungslehre%20-%20image%201.png)
 
 - über XY Chromosom vererbt.
 
-![](image%202.png)
+![](Vererbungslehre%20-%20image%202.png)

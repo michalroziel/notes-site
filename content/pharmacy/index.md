@@ -4,23 +4,23 @@
 
 [🎚️PhaST](PhaST/index.md)
 
-[🚀Periodensystem](Periodensystem/index.md)
+[🚀Periodensystem](Periodensystem.md)
 
 [🌜Stabile Elemente und Oktettregel](Stabile%20Elemente%20und%20Oktettregel.md)
 
 [🏜️Alkane und Alkine](Alkane%20und%20Alkine.md)
 
-[♦️Orbitalmodell](Orbitalmodell/index.md)
+[♦️Orbitalmodell](Orbitalmodell.md)
 
-[🏢pH- und pOH-Werte](pH-%20und%20pOH-Werte/index.md)
+[🏢pH- und pOH-Werte](pH-%20und%20pOH-Werte.md)
 
 [🫕Säuren und Basen](S%C3%A4uren%20und%20Basen.md)
 
-[🎄Elektrochemie](Elektrochemie/index.md)
+[🎄Elektrochemie](Elektrochemie.md)
 
 [🔎Stöchiometrie und nukleophile Substitution](St%C3%B6chiometrie%20und%20nukleophile%20Substitution.md)
 
-[🪜Kinetik](Kinetik/index.md)
+[🪜Kinetik](Kinetik.md)
 
 [📉Radioaktiver Zerfall](Radioaktiver%20Zerfall.md)
 
@@ -28,7 +28,7 @@
 
 [📗Molekulare Strukturen und Bindungen](Molekulare%20Strukturen%20und%20Bindungen.md)
 
-[🛰️Atommodelle](Atommodelle/index.md)
+[🛰️Atommodelle](Atommodelle.md)
 
 Alle Säure Base paare von OxoSäuren wissen
 
@@ -38,7 +38,7 @@ D und L NomenKlatur
 
 R und S Nomenklatur
 
-[🌄Thermodynamik](Thermodynamik/index.md)
+[🌄Thermodynamik](Thermodynamik.md)
 
 [📠Herz-Kreislauf-System](Herz-Kreislauf-System.md)
 

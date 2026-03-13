@@ -1,6 +1,6 @@
 # Periodensystem
 
-![](image.png)
+![](Periodensystem%20-%20image.png)
 
 ### Ordnungszahl :
 
@@ -10,7 +10,7 @@
 
 - Massen Zahl : Atomare Masse in u , entspricht der Nukleonen Zahl (Summe aus Protonen & Neutronen)
 
-![](image%201.png)
+![](Periodensystem%20-%20image%201.png)
 
 ### Perioden (Zeilen)
 
@@ -52,15 +52,15 @@
 - Das Leitungsband ist vollständig leer
   - Falls überlappend : sind Leiter
 
-![](image%202.png)
+![](Periodensystem%20-%20image%202.png)
 
-![](image%203.png)
+![](Periodensystem%20-%20image%203.png)
 
 > 💡
 >
 > **Bei HalbMetallen** : Leitungs- und Valenzband überlappen nicht.
 
-![](image%204.png)
+![](Periodensystem%20-%20image%204.png)
 
 - Nicht Leiter sind oft Oxide → Ionenbindungen
 
@@ -82,9 +82,9 @@
 
 Die Lewis Formel :  
 
-![](image%205.png)
+![](Periodensystem%20-%20image%205.png)
 
-![](image%206.png)
+![](Periodensystem%20-%20image%206.png)
 
 |  |  |  |
 |----|----|----|

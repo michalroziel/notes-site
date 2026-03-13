@@ -2,7 +2,7 @@
 
 ## Übersicht über bekannte Säuren && Basen
 
-![](pH-%20und%20pOH-Werte/Screenshot_2025-10-20_at_17.34.39.png)
+![](pH-%20und%20pOH-Werte%20-%20Screenshot_2025-10-20_at_17.34.39.png)
 
 ## Der $`K_s`$Ks​﻿ Wert
 

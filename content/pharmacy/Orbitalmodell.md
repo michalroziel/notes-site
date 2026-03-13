@@ -8,7 +8,7 @@ Atom - kleinestes, Unteilbarstes
 
 SP3 Hybrid Orbitale
 
-![](Screenshot_2025-10-24_at_10.59.42.png)
+![](Orbitalmodell%20-%20Screenshot_2025-10-24_at_10.59.42.png)
 
 ## Siehe auch
 

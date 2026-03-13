@@ -9,7 +9,7 @@
 >
 >   
 
-![](image.png)
+![](Elektrochemie%20-%20image.png)
 
 # Redox Reaktionen - 2 Reaktionen
 
@@ -85,11 +85,11 @@ Hierbei wird die Rekation zur Stromgewinnung genutzt.
 
 - Erlaubt Vorhersage, ob Reaktionen spontan ablaufen.
 
-![](image%201.png)
+![](Elektrochemie%20-%20image%201.png)
 
-![](image%202.png)
+![](Elektrochemie%20-%20image%202.png)
 
-![](image%203.png)
+![](Elektrochemie%20-%20image%203.png)
 
 ## Siehe auch
 
