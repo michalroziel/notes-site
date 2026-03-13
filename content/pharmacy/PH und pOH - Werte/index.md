@@ -10,11 +10,11 @@ der pOH-Wert ist defininiert als negadiver dekadischer Logarithmus der OH^- Ione
 
 ### Klassifizieren
 
-![](PH%20und%20pOH%20-%20Werte/Screenshot_2025-10-20_at_17.34.39.png)
+![](Screenshot_2025-10-20_at_17.34.39.png)
 
 ### Wasser - AutoProtoloyse
 
-![](PH%20und%20pOH%20-%20Werte/Screenshot_2025-10-20_at_17.36.31.png)
+![](Screenshot_2025-10-20_at_17.36.31.png)
 
 ### Titrationskurve
 
@@ -22,31 +22,31 @@ der pOH-Wert ist defininiert als negadiver dekadischer Logarithmus der OH^- Ione
 
 - bestimmen was ist drin
 
-![](PH%20und%20pOH%20-%20Werte/Screenshot_2025-10-20_at_17.39.51.png)
+![](Screenshot_2025-10-20_at_17.39.51.png)
 
 ## MehrProtonige Säuren
 
-![](PH%20und%20pOH%20-%20Werte/Screenshot_2025-10-20_at_17.51.10.png)
+![](Screenshot_2025-10-20_at_17.51.10.png)
 
 ## Übersicht
 
-![](PH%20und%20pOH%20-%20Werte/Screenshot_2025-10-20_at_17.53.48.png)
+![](Screenshot_2025-10-20_at_17.53.48.png)
 
 - TItrationsGrad von 0 bis 1
 
 ## Pufferkapazität
 
-![](PH%20und%20pOH%20-%20Werte/Screenshot_2025-10-20_at_17.58.32.png)
+![](Screenshot_2025-10-20_at_17.58.32.png)
 
 - Bei Puffer immer Säure und Base gleichzeitig zugeben
 
 > Henderson-Hasselbalch Gleichung
 
-![](PH%20und%20pOH%20-%20Werte/Screenshot_2025-10-20_at_18.02.53.png)
+![](Screenshot_2025-10-20_at_18.02.53.png)
 
 ## Chromatographie
 
-![](PH%20und%20pOH%20-%20Werte/Screenshot_2025-10-20_at_18.04.23.png)
+![](Screenshot_2025-10-20_at_18.04.23.png)
 
 ## Siehe auch
 

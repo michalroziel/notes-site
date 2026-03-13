@@ -1,6 +1,6 @@
 # Das PSE
 
-![](Das%20PSE/image.png)
+![](image.png)
 
 ### Ordnungszahl :
 
@@ -10,7 +10,7 @@
 
 - Massen Zahl : Atomare Masse in u , entspricht der Nukleonen Zahl (Summe aus Protonen & Neutronen)
 
-![](Das%20PSE/image%201.png)
+![](image%201.png)
 
 ### Perioden (Zeilen)
 
@@ -52,15 +52,15 @@
 - Das Leitungsband ist vollständig leer
   - Falls überlappend : sind Leiter
 
-![](Das%20PSE/image%202.png)
+![](image%202.png)
 
-![](Das%20PSE/image%203.png)
+![](image%203.png)
 
 > 💡
 >
 > **Bei HalbMetallen** : Leitungs- und Valenzband überlappen nicht.
 
-![](Das%20PSE/image%204.png)
+![](image%204.png)
 
 - Nicht Leiter sind oft Oxide → Ionenbindungen
 
@@ -82,9 +82,9 @@
 
 Die Lewis Formel :  
 
-![](Das%20PSE/image%205.png)
+![](image%205.png)
 
-![](Das%20PSE/image%206.png)
+![](image%206.png)
 
 |  |  |  |
 |----|----|----|

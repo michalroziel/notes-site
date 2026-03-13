@@ -2,7 +2,7 @@
 
 <https://www.digitalefolien.de/biologie/pflanzen/aufbau/zell.html>
 
-![](Zelle%20-%20Pflanze%20&%20Tier/Screenshot_2025-11-12_at_18.28.32.png)
+![](Screenshot_2025-11-12_at_18.28.32.png)
 
 ### Unterschiede zwischen pflanzlichen und tierischen Zellen
 
@@ -56,11 +56,11 @@ Die Zellteilung erfolgtin zwei Formen :
 
 - Interphase, Prophase, Metaphase, Anaphase, Telophase, Cytokinese
 
-![](Zelle%20-%20Pflanze%20&%20Tier/image.png)
+![](image.png)
 
 <https://www.digitalefolien.de/biologie/pflanzen/aufbau/zell.html>
 
-![](Zelle%20-%20Pflanze%20&%20Tier/image%201.png)
+![](image%201.png)
 
 ## Zellmemebran
 

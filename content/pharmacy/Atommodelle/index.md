@@ -6,7 +6,7 @@
 
 3.  Orbital modell
 
-![](Atommodelle/image.png)
+![](image.png)
 
 - Rutherfordsche Streu Versuch
 
