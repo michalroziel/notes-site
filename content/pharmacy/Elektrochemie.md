@@ -36,12 +36,12 @@ Natriumchlorid besteht aus : aus dem Metall Natrium `Na` und giftigem Chlorgas `
 >
 > Wir können nun die Gelchungen aufstellen :
 
-``` tex
-Oxidation: \text{ Na} \rightarrow 2 \text{ Na}^+ + \mathbf{2 e^-} 
-
-Reduktion: \text{Cl}_2 + \mathbf{2 e^-} \rightarrow 2 \text{ Cl}^-
-```
-
+$$
+\begin{aligned}
+\text{Oxidation: } & \mathrm{Na} \rightarrow 2\,\mathrm{Na}^+ + 2e^- \\
+\text{Reduktion: } & \mathrm{Cl}_2 + 2e^- \rightarrow 2\,\mathrm{Cl}^-
+\end{aligned}
+$$
 ## Elektrochemische Zellen
 
 - Bestehen aus zwei Halbzellen, in denen Oxidation und Reduktion getrennt stattfinden.
