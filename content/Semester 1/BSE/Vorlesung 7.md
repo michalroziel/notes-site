@@ -18,7 +18,7 @@ v7 - Shell-Programmierung:
 
 ## Was ist die Shell und Warum shell?
 
-Die **Shell** ist eine **Schnittstelle zwischen dem Benutzer und dem Betriebssystem**. Sie ermöglicht es dir, **Befehle einzugeben**, um Programme zu starten, Dateien zu verwalten oder Prozesse zu steuern.
+Die **Shell** ist eine **Schnittstelle zwischen dem Benutzer und dem Betriebssystem**. Sie ermöglicht es dir, **Befehle einzugeben**, um Programme zu starten, [[Vorlesung 2|Dateien]] zu verwalten oder [[Vorlesung 4|Prozesse]] zu steuern.
 
 **Warum Shell ?**
 
@@ -50,7 +50,7 @@ Die **Shell** ist eine **Schnittstelle zwischen dem Benutzer und dem Betriebssys
 |mv|move|mv datei1 → /../…/absolten pfad/|
 |cut|-c1|gibt mir den 1 Bustabe|
 |cut|-c1-4|gib mir die Bustabe von der erste bis 4 reihe|
-|export|export Hallo|Ich kann die Locale variable zu einer Umgebungsvariable machen|
+|export|export Hallo|Ich kann die Locale variable zu einer [[Vorlesung 8|Umgebungsvariable]] machen|
 |readonly|readonly Hello|wird zu einer Konstante, kann nicht verändert werden|
 |2>&1|Flasche output wird zu 1 gewechselt||
 |expr|expr 1 + 2 = 3  <br>expr 5 \* 3|wichtig bei * bruache ich einen Back slasch|
@@ -75,8 +75,8 @@ Wenn man eine leere Datei erstellt mit dem befehl touch, dann in der erste Zeile
 |   |   |   |
 |---|---|---|
 |**Befehl**|**Was passiert?**|**Wichtiger Unterschied**|
-|.**/**script.sh|Startet das Skript in einem neuen Unterprozess (Subshell).|Änderungen an Umgebungsvariablen gelten **nur innerhalb des Skripts**.|
-|. script.sh|Führt das Skript im akktuellen Termial prozess aus.|Änderungen an Umgebungsvariablen **bleiben im aktuellen Terminal** bestehen.|
+|.**/**script.sh|Startet das Skript in einem neuen Unterprozess (Subshell).|Änderungen an [[Vorlesung 8|Umgebungsvariablen]] gelten **nur innerhalb des Skripts**.|
+|. script.sh|Führt das Skript im akktuellen Termial prozess aus.|Änderungen an [[Vorlesung 8|Umgebungsvariablen]] **bleiben im aktuellen Terminal** bestehen.|
 
 ---
 
@@ -118,3 +118,11 @@ set -e \#wenn ich i.was flasch flasch mache ist der papagei tot und ich muss mir
 ## Umleitungsoperatoren (!!)
 
 ![[/image 2 3.png|image 2 3.png]]
+
+## Siehe auch
+
+- [[Vorlesung 2]]
+- [[Vorlesung 3]]
+- [[Vorlesung 8]]
+- [[Vorlesung 9]]
+- [[Vorlesung 10]]

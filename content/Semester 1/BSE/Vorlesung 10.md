@@ -25,9 +25,15 @@ Echo "hello" }
 
 ## Export
 
-export –f funktions name kann in der bash eine Funktion zum  
+export –f funktions name kann in der [[Vorlesung 7|bash]] eine Funktion zum  
 Export freigegeben werden
 
 ---
 
 ## Rekursion
+
+## Siehe auch
+
+- [[Vorlesung 7]]
+- [[Vorlesung 8]]
+- [[Vorlesung 9]]

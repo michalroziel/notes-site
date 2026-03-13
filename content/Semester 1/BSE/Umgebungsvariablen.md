@@ -2,9 +2,9 @@ Stell dir vor, du hast Schubladen mit Etiketten drauf, z. B. “Dein Zuhause” 
 
 Beispiele:
 
-- HOME —> Zeigt dir, wo dein “Zuhause” im Computer ist.
+- [[Vorlesung 2|HOME]] —> Zeigt dir, wo dein “Zuhause” im Computer ist.
 
-- PATH —> Sagt dem Computer, wo der Programme finden.
+- [[Vorlesung 8|PATH]] —> Sagt dem Computer, wo der Programme finden.
 
 ---
 
@@ -32,7 +32,7 @@ Es gibt **drei Gruppen von Personen:**
 
   
 
-Beispiel: Mit einem Zauberspruch “chmod” kannst du sagen, wer was darf!
+Beispiel: Mit einem Zauberspruch „[[Vorlesung 3|chmod]]” kannst du sagen, wer was darf!
 
   
 
@@ -64,7 +64,7 @@ im Command ist nur ein x.
 
 ---
 
-## Standardrechte und umask
+## Standardrechte und [[Vorlesung 3|umask]]
 
 Wenn du eine neue Schatzkiste machst, hat sie automatisch gewisse Regel:
 
@@ -76,7 +76,7 @@ Wenn du eine neue Schatzkiste machst, hat sie automatisch gewisse Regel:
 
 ## Wer hat meiste Zauberkräfte?
 
-Superuser(Root):
+Superuser([[Vorlesung 12|Root]]):
 
 Der König im Computer! Er darf alles.
 
@@ -169,3 +169,11 @@ Aufgabe 3.3
     Dateien?
 
 1. Erklären Sie die Besonderheiten des Users root. Wie wird er noch genannt?
+
+## Siehe auch
+
+- [[Vorlesung 3]]
+- [[Vorlesung 7]]
+- [[Vorlesung 8]]
+- [[Vorlesung 9]]
+- [[Klausur]]

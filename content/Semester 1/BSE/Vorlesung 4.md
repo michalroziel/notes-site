@@ -44,7 +44,7 @@ haben 3 zustände. Warten, rechned und blockiert
 
 ## Prozesse anzeigen (und deren Eigenschaften erklären)
 
-ps -ef | more
+[[Prozess in Betriebssystemen|ps -ef]] | more
 
   
 
@@ -57,7 +57,7 @@ STIME - wie lange
 
 ## Daemons
 
-Ein Prozess, der meist beim Hochfahren des Systems automatisch gestartet  
+Ein [[UNINTS|Prozess]], der meist beim Hochfahren des Systems automatisch gestartet  
 wird und im Hintergrund darauf wartet, seine Aufgaben zu erf¨ ullen
 
 ---
@@ -73,3 +73,10 @@ wird und im Hintergrund darauf wartet, seine Aufgaben zu erf¨ ullen
 ## Exit Status
 
 ![[/image 2 2.png|image 2 2.png]]
+
+## Siehe auch
+
+- [[Prozess in Betriebssystemen]]
+- [[UNINTS]]
+- [[Vorlesung 5]]
+- [[Vorlesung 7]]

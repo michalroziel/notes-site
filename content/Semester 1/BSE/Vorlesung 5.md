@@ -15,7 +15,7 @@ v5 - Units, Logging:
 
 ## Systemctl
 
-ist das Kommando zur Steuerung von Systemd, dem init System, das alles laufende Units aud einem System verwaltet. die Prozesse laufen auch parallel, um den Bootvorgang zu beschleunigen
+ist das Kommando zur Steuerung von Systemd, dem init System, das alles laufende [[UNINTS|Units]] aud einem System verwaltet. die [[Vorlesung 4|Prozesse]] laufen auch parallel, um den Bootvorgang zu beschleunigen
 
 ```SQL
 Systemctl[<optionen><Komando><unit>]
@@ -39,7 +39,7 @@ Systemctl[<optionen><Komando><unit>]
 
 Man unterscheidet 2 Arten von Units:
 
-- **Systemweite** Units können nur von root angelegt und bearbeitet werden
+- **Systemweite** Units können nur von [[Vorlesung 12|root]] angelegt und bearbeitet werden
 
 - **Benutzereigene** Units können vom Benutzer fur sich selbst  
     angelegt und geändert werden
@@ -49,3 +49,10 @@ Man unterscheidet 2 Arten von Units:
 ## Units anlegen
 
 ![[/image 11.png|image 11.png]]
+
+## Siehe auch
+
+- [[UNINTS]]
+- [[Vorlesung 4]]
+- [[Prozess in Betriebssystemen]]
+- [[Klausur]]

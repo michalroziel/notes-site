@@ -25,7 +25,7 @@ v9 - Kontrollstrukturen:
 ```Bash
 1 # Demonstriert eine Verzweigung mit if
 2 # Name: aif1
-3 # Benutzer in /etc/passwd suchen ...
+3 # Benutzer in [[Vorlesung 12|/etc/passwd]] suchen ...
 4 if grep "^$1" /etc/passwd
 5 then
 6 # Ja, grep war erfolgreich
@@ -43,3 +43,10 @@ v9 - Kontrollstrukturen:
   
 
 ![[/image 15.png|image 15.png]]
+
+## Siehe auch
+
+- [[Vorlesung 7]]
+- [[Vorlesung 8]]
+- [[Umgebungsvariablen]]
+- [[Klausur]]

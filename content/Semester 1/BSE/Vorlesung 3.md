@@ -27,7 +27,7 @@ Beispiele:
 
   
 
-eine **Umgebungsvariable** ist eine Variable im Betriebssystem, die Programme und Skripte nutzen, um Einstellungen oder Pfade zu speichern Vordefinierte Umgebungsvariablen sind z. B. HOME, PATH, PWD, LANG
+eine **Umgebungsvariable** ist eine Variable im Betriebssystem, die Programme und Skripte nutzen, um Einstellungen oder Pfade zu speichern. Vordefinierte Umgebungsvariablen sind z. B. [[Vorlesung 2|HOME]], PATH, PWD, LANG
 
 ---
 
@@ -43,7 +43,7 @@ Inodes sind eigentlich metadaten, da sind daten wie zugriffsrechte, dateityp und
 
   
 
-Mit dem WHICH Befehl sucht er die ausfürbaren programme die im path sind. Die programme die nicht im Phat drin sind müssen mit dem Absoluten pfad aufgerufden werden oder in de n$PATH hinzu gefügt werden.
+Mit dem WHICH Befehl sucht er die ausfürbaren programme die im [[Vorlesung 8|PATH]] sind. Die programme die nicht im Phat drin sind müssen mit dem Absoluten pfad aufgerufden werden oder in de n$PATH hinzu gefügt werden.
 
 ---
 
@@ -71,7 +71,7 @@ Es gibt **drei Gruppen von Personen:**
 
   
 
-Beispiel: Mit einem Zauberspruch “chmod” kannst du sagen, wer was darf!
+Beispiel: Mit einem Zauberspruch „[[Umgebungsvariablen|chmod]]” kannst du sagen, wer was darf!
 
   
 
@@ -105,10 +105,18 @@ Wenn du eine neue Schatzkiste machst, hat sie automatisch gewisse Regel:
 
 ## Wer hat meiste Zauberkräfte?
 
-Superuser(Root):
+Superuser([[Vorlesung 12|Root]]):
 
 Der König im Computer! Er darf alles.
 
 Sudoer (Helfer mit Extra-Zauber):
 
 Jemand, der für bestimmte Dinge die Superkraft ausleihen kann (z. B. mit sudo)
+
+## Siehe auch
+
+- [[Umgebungsvariablen]]
+- [[Vorlesung 2]]
+- [[Vorlesung 7]]
+- [[Vorlesung 8]]
+- [[Klausur]]

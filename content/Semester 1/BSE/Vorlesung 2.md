@@ -90,7 +90,7 @@ Nachdem die Fächer vorbereitet sind, musst du sie an einen festen Platz in dein
 
 ### 4. **Alles bleibt auch nach dem Neustart bestehen (Eintrag in /etc/fstab)**
 
-Damit die Fächer (Partitionen) immer da sind, auch wenn der Computer mal neu startet, schreibst du einen kleinen Eintrag in die Datei **/etc/fstab**. Dieser Eintrag ist wie eine Liste, in der steht, welche Partition wo immer eingehängt werden soll, zum Beispiel:
+Damit die Fächer (Partitionen) immer da sind, auch wenn der Computer mal neu startet, schreibst du einen kleinen Eintrag in die Datei **[[Klausur|/etc/fstab]]**. Dieser Eintrag ist wie eine Liste, in der steht, welche Partition wo immer eingehängt werden soll, zum Beispiel:
 
 ```SQL
 /dev/sdb1  /daten1  ext4  defaults  0  0
@@ -132,7 +132,7 @@ Jeder Ordner hat eine eigene Aufgabe, genau wie in einem echten Baum jeder Ast a
 
 ## Anzeigen & Navigation in der Shell durch den Dateibaum
 
-Um in diesem Dateibaum herumzulaufen, benutzt du die Shell (eine Art Kommando-Zentrale). Einige wichtige Befehle sind:
+Um in diesem Dateibaum herumzulaufen, benutzt du die [[Vorlesung 7|Shell]] (eine Art Kommando-Zentrale). Einige wichtige Befehle sind:
 
 - ==**ls**==**:** Zeigt dir, was in einem Ordner liegt, ähnlich wie wenn du in einen Raum schaust.
 
@@ -158,6 +158,13 @@ Manchmal benutzt man auch Editoren wie „==vi==“ oder „==vim==“, um die D
 
   
 
-## HOME VERZEICHNIS
+## [[Umgebungsvariablen|HOME]] VERZEICHNIS
 
 ![[image 8.png]]
+
+## Siehe auch
+
+- [[Vorlesung 1]]
+- [[Vorlesung 3]]
+- [[Vorlesung 7]]
+- [[Klausur]]

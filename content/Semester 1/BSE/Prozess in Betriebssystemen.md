@@ -24,7 +24,7 @@ ES GIBT DREI ARTEN VON PROZESSEN!
 
 ## Wie entscheidet der Computer, welche Männchen zuerst arbeiten darf?
 
-Der **Scheduler** ist ein “LERHER”, der sagt, welche Männchen wann daran ist. Er benutzt verschiedene Regeln:
+Der **Scheduler** ist ein “LERHER”, der sagt, welche Männchen wann daran ist. Er benutzt verschiedene Regeln wie in [[Vorlesung 4|der Prozessverwaltung]]:
 
 1. **Wer kommt zuerst, arbeitet zuerst(FCFS)** → Wie bei einer Warteschlage bei McDonalds 🙂
 
@@ -46,7 +46,7 @@ Und mit dem Commando ==top==, sieht du live , welche Prozesse gerade ie CPU benu
 
 ## Übung
 
-Aufgabe 4-4: Übungen zu Diensten und Units
+Aufgabe 4-4: Übungen zu [[UNINTS|Diensten und Units]]
 
 1. **Mit welchem Kommando kann man einen Dienst starten bzw. stoppen?**  
     FINDE NICHT IN DER VORLESUNG
@@ -80,7 +80,7 @@ Aufgabe 4-5: Übungen zur Prozesssteuerung
       
     Vielleicht mit dem befehl ==pkill -Kill -x firefox  
     
-**Aufgabe 4-6: Übung zum Exit-Status**  
+**Aufgabe 4-6: Übung zum [[Vorlesung 4|Exit-Status]]**  
 **Sie haben einen Befehl ausgeführt, um Dateien nach einem bestimmten Muster zu durchsuchen, erhalten aber keine Rückmeldung, ob das Muster gefunden wurde oder ob ein**  
 **Fehler aufgetreten ist.**  
   
@@ -94,7 +94,7 @@ B) 0 ist erfolgrei und andere zahelen heißen fehler
 
   
 
-Aufgabe 4-7: Übungen zu Cron und Automatisierung (keine ahnung wie die aufgabe funktsoniert…
+Aufgabe 4-7: Übungen zu [[Vorlesung 4|Cron]] und Automatisierung (keine ahnung wie die aufgabe funktsoniert…
 
 1. Sie möchten das Skript [backup.sh](http://backup.sh/) jeden Tag um Mitternacht automatisch ausführen lassen.  
     • Wie würden Sie den Crontab-Eintrag schreiben, um diese Aufgabe zu automatisieren?  
@@ -105,3 +105,10 @@ Aufgabe 4-7: Übungen zu Cron und Automatisierung (keine ahnung wie die aufgabe 
     ausführen lassen.  
     • Schreiben Sie den Crontab-Eintrag für diese Aufgabe.  
     • Verwenden Sie alternativ die spezielle Zeichenkette für wöchentliche Aufgaben.
+
+## Siehe auch
+
+- [[Vorlesung 4]]
+- [[UNINTS]]
+- [[Vorlesung 5]]
+- [[Vorlesung 7]]

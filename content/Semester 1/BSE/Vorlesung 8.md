@@ -128,7 +128,7 @@ array[3]="HALLLOOOO" # in der hallo Baby ASd HALLLOOOO
 # kennt es nicht. 
 # Um es eine umgebungs variable zu erstellen muss man den befehl export benutzen.
 
-export array
+export array # siehe auch [[Umgebungsvariablen]]
 ```
 
 ---
@@ -149,3 +149,11 @@ Erstes Argument: Hallo
 Zweites Argument: Welt
 Anzahl der Argumente: 2
 ```
+
+## Siehe auch
+
+- [[Vorlesung 3]]
+- [[Umgebungsvariablen]]
+- [[Vorlesung 7]]
+- [[Vorlesung 9]]
+- [[Vorlesung 10]]

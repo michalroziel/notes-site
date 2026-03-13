@@ -24,9 +24,9 @@ Ein Betriebssystem ist eine Software, die die Teile eines Computers wie Prozesso
     Benutzerschnittstelle
 
 - Ansprechpartner fur den Benutzer durch Bereitstellen ¨ abstrakter Objekte, z. B.  
-    Dateien.
+    [[Vorlesung 2|Dateien]].
 
-- Koordination von Prozessen
+- Koordination von [[Vorlesung 4|Prozessen]]
 
   
 
@@ -54,6 +54,12 @@ Quelloffene Betriebssysteme (Open-Source-OS), wie **Linux**, bieten mehrere Vort
 
 ## CLI vs. GUI
 
-GUI (Graphische Oberfläche ) und CLI (**C**ommand **L**ine **I**nterface)
+GUI (Graphische Oberfläche ) und [[Vorlesung 7|CLI]] (**C**ommand **L**ine **I**nterface)
 
 ---
+
+## Siehe auch
+
+- [[Grundlagen]]
+- [[Vorlesung 2]]
+- [[Vorlesung 4]]
