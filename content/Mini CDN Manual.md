@@ -1,87 +1,327 @@
 
 ### Was ist Mini CDN ?
 
-Das Mini CDN der Gruppe 8 in Verteilte Systeme stellt ein Implementiertes Konzept eines Content Delivery Networks da. In einem  In userem Verteilten System gibt es einen Origin Server und mehrere Edge Server. 
+Mini-CDN ist ein von Gruppe 8 im Modul Verteilte Systeme entwickeltes vereinfachtes Content Delivery Network (CDN).  
+Das System besteht aus einem Origin-Server, einem Router und mehreren Edge-Servern.
 
-Jeder Server gehört einer bestimmten Region an, so können User 
+Der Origin-Server speichert die Originaldateien. Edge-Server cachen Inhalte regional, um Downloads näher am Benutzer bereitzustellen. Der Router übernimmt die Weiterleitung von Anfragen und entscheidet anhand der Region, welche Edge-Instanz verwendet wird.
 
+Benutzer können über die CLI Dateien herunterladen. Administratoren können Dateien hochladen, die Infrastruktur verwalten sowie Statistiken und Laufzeitinformationen des Systems abrufen.
 
-User können mittels CLI Eingaben Dateien herunterladen. Mini-CDN Admins können Dateien auf den Origin Server hochladen, die Infrastruktur verwalten, sowie Statistiken bezüglich der Anwendung einsehen. 
+Im Projekt bezeichnet der Begriff *Server* jeweils einen eigenständigen HTTP-Port.
 
-Im weiteren sind mit der Bezeichnung *Server* einzelne ```HTTP``` Ports gemeint.
+Die Anwendung basiert auf einer Client-Server-Architektur und ist als Multi-Maven-Projekt umgesetzt.
 
-Die Anwendung beruht auf einer ```Client-Server``` Architektur und wurde durch ein 
-```multi maven``` Projekt implementiert. 
+---
 
+### Voraussetzungen unter Linux / macOS
 
-### Vorraussetzungen / Prerequisities  @ Linux / OSX
 ```shell
-java -version     # sollte Java 21 sein
+java -version   # Java 21
 mvn -version
 cp .env.example .env
-export MINICDN_ADMIN_TOKEN=secret-token
-export MINICDN_ROUTER_URL=http://localhost:8082
 ```
 
+---
 ## CLI Befehle  @ Mini-CDN
 
-#### Kompilieren der Anwendung und das Erstellen von Sources
+### Für einen vollständigen Build inklusive Prüfungen
 ```
 mvn clean verify 
+```
+
+### Falls nur die Artefakte gebaut werden sollen
+```
 mvn clean package
 ```
 
+### Nur die CLI bauen 
+```
+mvn -pl cli -am package -DskipTests
+```
 
-#### Maven Spotless Code Formatierung
+---
+#### Code Formatierung & Analyse
+
+##### Spotless Formartierung 
 ```
 mvn spotless:apply
 ```
-#### Maven Spotless Check 
+
+##### Spotbugs Analyse
 ```
 mvn spotbugs:check
 ```
 
 ## Start der Anwendung
 ```shell
-cd cli
-mvn exec:java
+java -jar cli/target/cli-1.0-SNAPSHOT-exec.jar 
 ```
 
-#### Check health Endpunkt des Origin Server prüfen  
 ```shell
+system init
+```
+
+### Login in der CLI
+
+###### Login als bestehender Benutzer:
+```
+system login --name admin
+```
+
+>[!IMPORTANT]
+> Einige Benutzerbefehle wie `user stats`  ... setzen einen Login voraus.
+
+---
+###### Prüfen der laufenden Dienste
+```
+lsof -i:8080 -i:8081 -i:8082
+```
+###### Health-Endpoint des Origin prüfen:
+```
 curl http://localhost:8080/api/origin/health
 ```
-#### Im neuen Terminal Prüfen ob Anfangs-Server funktionieren
+###### Health-Endpoint des Routers prüfen:
+```
+curl http://localhost:8082/api/cdn/health
+```
+
+--- 
+
+# Beispielbefehle der CLI 
+
+### Admin: Datei hochladen
 ```shell
-❯ lsof -i:8080 -i:8081 -i:8082
+admin file upload --region EU --path docs/a.pdf --file ./a.pdf
 ```
 
-#### Admin : Upload von Dateien 
+***Optional mit expliziter Router-URL:***
+
+```
+admin file upload --router http://localhost:8082 --region EU --path docs/a.pdf --file ./a.pdf
+```
+
+---
+
+### Admin: Dateien anzeigen
+
+###### Dateiliste über den Router:
 ```shell
-admin file upload --router http://localhost:8082 --region EU --path a.pdf --file /Users/xudongzhang/Downloads/Lebenslauf.pdf
-
-# -file : your local file path
+admin file list
 ```
 
-#### Admin : Anzeigen von verfügbaren Ressourcen
+###### Metadaten zu einer Datei anzeigen:
 ```shell
-admin file list --router http://localhost:8082
-admin file show --origin http://localhost:8080 --path htwsaar.jpg
+admin file show --path docs/a.pdf
 ```
 
-#### Admin : Anzeigen von Statisiken von Mini-CDN
+###### Datei über den Router herunterladen:
 ```shell
- admin stats show --host http://localhost:8082
+admin file download --region EU --path docs/a.pdf --out ./a.pdf
 ```
 
-#### Admin : Verfügbare Server Instanzen anzeigen.
-```
- admin edge managed
-```
-
-#### Admin : Server Starten 
-```shell 
- admin edge start -H http://localhost:8082 --region EU --port 8085 --origin
-http://localhost:8080 --auto-register=true --wait-ready
+###### Datei löschen:
+```shell
+admin file delete --region EU --path docs/a.pdf
 ```
 
+---
+
+### Admin: Statistiken anzeigen
+```shell
+admin stats show
+```
+
+###### Mit explizitem Host:
+```shell
+admin stats show --host http://localhost:8082
+```
+
+###### JSON-Ausgabe:
+```shell
+admin stats show --json
+```
+
+---
+
+### Admin: Verwaltete Edge-Instanzen anzeigen
+```shell
+admin edge managed
+```
+
+---
+
+### Admin: Neue Edge-Instanz starten
+```shell
+admin edge start --region EU --port 8085 --origin http://localhost:8080 --auto-register=true --wait-ready
+```
+admin edge start --region EU --port 8085 --origin http://localhost:8080 --auto-register=true --wait-ready
+
+
+### Admin: Origin-Konfiguration
+
+###### Aktuelle Origin-Konfiguration anzeigen:
+```
+admin config origin show
+```
+
+###### Origin-Konfiguration ändern:
+```shell
+admin config origin set --max-upload-bytes 1048576 admin config origin set --log-level INFO
+```
+
+###### Expliziten Origin angeben:
+```shell
+admin config origin show --origin http://localhost:8080
+```
+
+
+---
+
+### Admin: Origin-Spare-Verwaltung
+
+###### Registrierte aktive/spare Origins anzeigen:
+```shell
+admin config origin spare show
+```
+
+###### Optional mit Health-Check:
+```shell
+admin config origin spare show --check-health
+```
+
+
+###### Spare Origin hinzufügen:
+```shell
+admin config origin spare add --url http://localhost:8084
+```
+
+
+###### Weitere nützliche Befehle:
+```shell
+admin config origin spare remove --url http://localhost:8084 admin config origin spare promote --url http://localhost:8084 admin config origin spare failover-check
+```
+
+
+---
+
+### Admin: Edge-Konfiguration
+
+###### Aktuelle Edge-Konfiguration anzeigen:
+```shell
+admin config edge show
+```
+
+###### Edge-Konfiguration ändern:
+```shell
+admin config edge set --default-ttl-ms 120000 --max-entries 200
+```
+
+
+###### Explizite Edge-URL angeben:
+```shell
+admin config edge show --edge http://localhost:8081
+```
+
+###### Optional können auch weitere Parameter gesetzt werden:
+```shell
+admin config edge set --region EU --replacement-strategy LFU
+```
+
+
+---
+
+### Admin: Verwaltete Edge-Instanzen
+
+###### Neue Edge-Instanz starten:
+```shell
+admin edge start --region EU --port 8088 --origin http://localhost:8080 --wait-ready
+```
+
+###### Verwaltete Edge-Instanzen anzeigen:
+```shell
+admin edge managed
+```
+
+###### Spezifische Edge stoppen:
+```shell
+admin edge stop edge-94371 --force
+```
+
+
+###### Alle Edges einer Region stoppen:
+```shell
+admin edge stop-region --region EU --force
+```
+
+---
+
+### Admin: Benutzerverwaltung
+
+###### Neuen Benutzer anlegen:
+```shell
+admin user add --name alice --role 1
+```
+
+Rollen:
+
+- 0 = USER
+- 1 = ADMIN
+
+###### Benutzer auflisten:
+```shell
+admin user list
+```
+
+###### Benutzer löschen:
+```shell
+admin user delete --id 3
+```
+
+
+---
+
+### Admin: Health-Checks mit Ping
+
+###### Router prüfen:
+```shell
+admin ping -H http://localhost:8082 -p api/cdn/health
+```
+
+###### Origin prüfen:
+```shell
+admin ping -H http://localhost:8080 -p api/origin/health
+```
+
+
+---
+
+### User: Datei herunterladen
+
+###### Datei über den Router herunterladen:
+```shell
+user file download --region EU --path pdfTest.pdf --out ./manual3.pdf --host http://localhost:8082
+
+```
+
+
+---
+
+### User: Dateistatistiken
+
+##### Statistiken für eine bestimmte Datei anzeigen:
+```shell
+user stats file --file-id 1
+```
+
+###### Dateistatistikliste anzeigen:
+```shell
+user stats list user stats list --limit 20
+```
+
+Gesamtstatistik des aktuell eingeloggten Benutzers anzeigen:
+```shell
+user stats overall 
+
+user stats overall --window-sec 7200
+```
