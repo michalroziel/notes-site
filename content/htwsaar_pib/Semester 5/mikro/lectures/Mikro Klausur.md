@@ -1,5 +1,5 @@
 [[my-notes-site/content/htwsaar_pib/Semester 5/mikro/lectures/ARM7]]
-Open Book Klausur : alles mitnehmen 
+Open Book [[Klausur]] : alles mitnehmen 
 
 Gleiche Aufgaben, andere Methoden : 
 - Andere Adressierungen 
@@ -13,7 +13,7 @@ Bsp: nicht bis N zu iterieren, sondern bis n-1
 
 ### Mehrmals erwähnt : 
 
-KLAUSUR : wie ist ein Befehl kodiert ? 
+[[Klausur]] : wie ist ein Befehl kodiert ? 
 	Wie viele instruktionszyklen hat dieser ? 
 
 
@@ -37,13 +37,13 @@ Kopieren von speichervarianten :
 		Speicherbereicht lesen und umdrehen 
 		Collatz ? 
 		
-Davs Device zum kopieren von Speicher inhalten ?
+Davs Device zum kopieren von [[Speicher]] inhalten ?
 
 
 Funktion mit schleife schneller  : nicht i < 100 
 		sondern : i < 25 und 4 schritte innerhalb der schleife 
 
-Speicher kopieren : 
+[[Speicher]] kopieren : 
 
 
 
@@ -52,7 +52,7 @@ NICHT PRÜFEN : Programm schreiben dass 19 Zeilen hat
 Typisch : schleife mit 6,7 anweisungen 
 oder viele instruktionen mit vielen unteraufgaben, jede mit 3-4 aufgaben
 
-KIENE C Programs 
+KIENE [[C]] Programs 
 
 
 

@@ -8,7 +8,7 @@
 
 ### Aussage zur Immunisierung
 
-- Richtig ist (C): Die passive Immunisierung kann zur Therapie genutzt werden.
+- Richtig ist ([[C]]): Die passive Immunisierung kann zur Therapie genutzt werden.
 
 - Merke: Aktiv = Antigen-Gabe, Körper bildet selbst Antikörper (Impfschutz, Prophylaxe); passiv = fertige Antikörper werden gegeben (schnelle, zeitlich begrenzte Therapie/Notfall).
 

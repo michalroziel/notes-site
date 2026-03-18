@@ -4,7 +4,7 @@
 
 
 
-- ARM und ISA ( Instruction Set Architecture ) hängen strikt zusammen
+- ARM und ISA ( Instruction Set [[architecture]] ) hängen strikt zusammen
 - Prozessortypen : ARM1 - ARM 8, 
 	Architekturen : ARMv1 - ARMv8
 
@@ -17,19 +17,19 @@
   SUB Rd, Rn, Operand2
 ```
 
-- ARM920T mit der HAWARD Architektur
+- ARM920T mit der HAWARD [[Architektur]]
 - ARMv1 wurde nie kommerziell eingeführt
 - ARMv2 hat diese schnell ersetzt → 26-Bit-Adressraum, Mehr Register, Multiplikationsbefehl
 
 #### DEEPLY EMBEDDED SYSTEMS → MikroController Programmierung
 Beispiel von FlugzeugSteuerSystemen
-Hardware Description Languages → VHDL , VERILOG
+Hardware [[Description]] Languages → VHDL , VERILOG
 
 
 ### Problematik bei Flip Flops : Metastabilität, Functional & instructional Hazards
 Es gibt ein kurzes Zeitfenster wo eine 0 auftritt, wo in der booleschen Algebra keine steht
 
-![[remote-notes/sem3/mikro/Pasted image 20241022191121.png]]
+![[remote-notes/sem3/[[MIKRO]]/Pasted image 20241022191121.png]]
 
 - In den Usa gab es einen Hazard bei Toyota 
 - Beispiel des Zündfensters bei Benzin Motoren 
@@ -47,10 +47,10 @@ Abstandsicherungssystem bei einem Leoparden Panzer verfügt Microcontroller, die
 
 # Eigenschaften des ARM7
 - in der RISC sind alle Instructions gleich lang → der PC muss incremented werden
-- gemeisnamer BUS für Daten und Instruktionen → Von Neumann Architektur
+- gemeisnamer BUS für Daten und Instruktionen → Von Neumann [[Architektur]]
 - Es gibt 3,2,1 und 0 Adressierbare Formate
-    - 3 Addressiges Format : a = b + c
-- Hier bezieht sich Addressierbar auf Register Adressierung, _**nicht Speicher**_
+    - 3 Addressiges Format : a = b + [[C]]
+- Hier bezieht sich Addressierbar auf Register Adressierung, _**nicht [[Speicher]]**_
 
 ```
 SUB Rd, Rn, Operand2
@@ -66,7 +66,7 @@ Es gibt immernoch *"Shadow Register"* Die Programmierung damit ist sehr Hardware
 ### Exception Handling ist im Embedded Bereich ein kritisches Problem !
 Wer *bedient* die Exception ? Was soll dann passieren ? 
 Mit der Verwendung der *STL* -> Standard Technic Library können Probleme auftreten
-Selbst Funktionen welche als "No Exception" deklariert sind können eine Exception werfen. 
+Selbst [[Funktionen]] welche als "No Exception" deklariert sind können eine Exception werfen. 
 Assertions sind immer implizit vorhanden -> Diese helfen uns, DEbugging um einiges zu verkürzen 
 - Undefined behaviour kann allerdings immern noch auftreten
 
@@ -78,7 +78,7 @@ Assertions sind immer implizit vorhanden -> Diese helfen uns, DEbugging um einig
         - Nur da Exception throwen wo man SIe auch fangen kann
     - Irgendwann ist der Heap auch voll
 
-- *Dynamischer Speicher in EMBDEDDED : Placement NEW ?*
+- *Dynamischer [[Speicher]] in EMBDEDDED : Placement NEW ?*
     - Void* Stern als Argument übergeben
     - Die Anfragen an das System sind klar definiert
     - im Embedded Bereich wissen wir wie viele Kommunikationskanäle wir haben
@@ -101,7 +101,7 @@ Semaphoren: Ein weiterer Synchronisationsmechanismus, der sich von Mutexen dadur
 - Ein Adressiege Operanden sind zum Beispiel Akkumulator Maschinen
     - Akkumulator + Ziel
 - 0 Adressiege Operanden
-    - Bsp : Java Byte machine : Klar dass on top of the stack
+    - Bsp : [[Java]] Byte machine : Klar dass on top of the stack
 ![[Screenshot 2024-10-29 at 14.27.38.png]]
 
 - Eine Lange PipelLine ( wie 11 steps ) kann sogar die Latenz erhöhen
@@ -110,11 +110,11 @@ Semaphoren: Ein weiterer Synchronisationsmechanismus, der sich von Mutexen dadur
 ![[scREEN.png]]
 - Operand 2 ist entweder ein Register Inhalt oder ein SpeicherInhalt ?
     - Operanden sind nicht gleichwertig, mit dem OP1 können wir mehr machen
-- Immediate Konstanten wurden aus dem Speicher gelesen
+- Immediate Konstanten wurden aus dem [[Speicher]] gelesen
 - Auch Komplexe Befehle möglich : Bsp. : 8 register gleichzeitg lesen
 
 ## 2.2.2 Register im ARM Modus 
-Der ARM7 Prozessor mit dem wir uns beschäftigen verfügt über 37 Register.
+Der [[remote-notes/sem3/mikro/lectures/ARM7|ARM7]] Prozessor mit dem wir uns beschäftigen verfügt über 37 Register.
 Davon stehen uns als Programmers 16 + 1 zur Verfügung. 
 Dies beinhaltet Register R0-R15 + 1 Statusregister 
 
@@ -182,7 +182,7 @@ Was muss ich über die Unteschiedlichen Prozessor Typen
 
 - Die Phasen der Befehlsausführung lernen
 - CISC vs RISC wiederholen
-- NÄCHSTES MAL Embedded Systems </aside>
+- NÄCHSTES MAL [[remote-notes/sem3/mikro/lectures/Embedded Systems|Embedded Systems]] </aside>
 
 
 - Es gibt zwei Interrupt Requests :

@@ -1,7 +1,7 @@
 
 ### Was ist Mini CDN ?
 
-Mini-CDN ist ein von Gruppe 8 im Modul Verteilte Systeme entwickeltes vereinfachtes Content Delivery Network (CDN).  
+Mini-CDN ist ein von Gruppe 8 im Modul [[Verteilte Systeme]] entwickeltes vereinfachtes Content Delivery Network (CDN).  
 Das System besteht aus einem Origin-Server, einem Router und mehreren Edge-Servern.
 
 Der Origin-Server speichert die Originaldateien. Edge-Server cachen Inhalte regional, um Downloads näher am Benutzer bereitzustellen. Der Router übernimmt die Weiterleitung von Anfragen und entscheidet anhand der Region, welche Edge-Instanz verwendet wird.
@@ -10,7 +10,7 @@ Benutzer können über die CLI Dateien herunterladen. Administratoren können Da
 
 Im Projekt bezeichnet der Begriff *Server* jeweils einen eigenständigen HTTP-Port.
 
-Die Anwendung basiert auf einer Client-Server-Architektur und ist als Multi-Maven-Projekt umgesetzt.
+Die Anwendung basiert auf einer Client-Server-[[Architektur]] und ist als Multi-[[Maven]]-Projekt umgesetzt.
 
 ---
 

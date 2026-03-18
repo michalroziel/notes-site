@@ -144,7 +144,7 @@ Before deploying to Vercel, a `vercel.json` file is required at the root of the 
 | ----------------------------------------- | ------------------ |
 | Framework Preset                          | `Other`            |
 | Root Directory                            | `./`               |
-| Build and Output Settings > Build Command | `npx quartz build` |
+| [[build]] and Output Settings > [[build]] Command | `npx quartz [[build]]` |
 
 5. Press Deploy. Once it's live, you'll have 2 `*.vercel.app` URLs to view the page.
 
@@ -159,7 +159,7 @@ Before deploying to Vercel, a `vercel.json` file is required at the root of the 
 4. Press "Add" to connect a custom domain to Vercel.
 5. Select your Quartz repository and press Continue.
 6. Enter the domain you want to connect it to.
-7. Follow the instructions to update your DNS records until you see "Valid Configuration"
+7. Follow the instructions to update your DNS records until you see "Valid [[configuration]]"
 
 ### Use a Subdomain
 
@@ -175,7 +175,7 @@ Using `docs.example.com` is an example of a subdomain. They're a simple way of c
 
 1. Log in to the [Netlify dashboard](https://app.netlify.com/) and click "Add new site".
 2. Select your Git provider and repository containing your Quartz project.
-3. Under "Build command", enter `npx quartz build`.
+3. Under "[[build]] command", enter `npx quartz [[build]]`.
 4. Under "Publish directory", enter `public`.
 5. Press Deploy. Once it's live, you'll have a `*.netlify.app` URL to view the page.
 6. To add a custom domain, check "Domain management" in the left sidebar, just like with Vercel.
@@ -221,13 +221,13 @@ pages:
       - public
 ```
 
-When `.gitlab-ci.yaml` is committed, GitLab will build and deploy the website as a GitLab Page. You can find the url under `Deploy > Pages` in the sidebar.
+When `.gitlab-ci.yaml` is committed, GitLab will [[build]] and deploy the website as a GitLab Page. You can find the url under `Deploy > Pages` in the sidebar.
 
 By default, the page is private and only visible when logged in to a GitLab account with access to the repository but can be opened in the settings under `Deploy` -> `Pages`.
 
 ## Self-Hosting
 
-Copy the `public` directory to your web server and configure it to serve the files. You can use any web server to host your site. Since Quartz generates links that do not include the `.html` extension, you need to let your web server know how to deal with it.
+Copy the `public` directory to your web server and configure it to serve the [[Files]]. You can use any web server to host your site. Since Quartz generates links that do not include the `.html` extension, you need to let your web server know how to deal with it.
 
 ### Using Nginx
 

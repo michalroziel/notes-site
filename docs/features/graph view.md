@@ -6,7 +6,7 @@ tags:
 
 Quartz features a graph-view that can show both a local graph view and a global graph view.
 
-- The local graph view shows files that either link to the current file or are linked from the current file. In other words, it shows all notes that are _at most_ one hop away.
+- The local graph view shows [[Files]] that either link to the current file or are linked from the current file. In other words, it shows all notes that are _at most_ one hop away.
 - The global graph view can be toggled by clicking the graph icon on the top-right of the local graph view. It shows _all_ the notes in your graph and how they connect to each other.
 
 By default, the node radius is proportional to the total number of incoming and outgoing internal links from that file.
@@ -14,13 +14,13 @@ By default, the node radius is proportional to the total number of incoming and 
 Additionally, similar to how browsers highlight visited links a different colour, the graph view will also show nodes that you have visited in a different colour.
 
 > [!info]
-> Graph View requires the `ContentIndex` emitter plugin to be present in the [[configuration]].
+> Graph View requires the `[[ContentIndex]]` emitter [[plugin]] to be present in the [[configuration]].
 
 ## Customization
 
-Most configuration can be done by passing in options to `Component.Graph()`.
+Most [[configuration]] can be done by passing in options to `[[component]].Graph()`.
 
-For example, here's what the default configuration looks like:
+For example, here's what the default [[configuration]] looks like:
 
 ```typescript title="quartz.layout.ts"
 Component.Graph({
@@ -59,7 +59,7 @@ When passing in your own options, you can omit any or all of these fields if you
 
 Want to customize it even more?
 
-- Removing graph view: delete all usages of `Component.Graph()` from `quartz.layout.ts`.
-- Component: `quartz/components/Graph.tsx`
+- Removing graph view: delete all usages of `[[component]].Graph()` from `quartz.[[layout]].ts`.
+- [[component]]: `quartz/components/Graph.tsx`
 - Style: `quartz/components/styles/graph.scss`
 - Script: `quartz/components/scripts/graph.inline.ts`

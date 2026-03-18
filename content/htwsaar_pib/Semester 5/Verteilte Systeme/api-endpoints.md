@@ -4,7 +4,7 @@ _Automatisch aus Spring-Controller-Annotationen generiert._
 
 ## Edge
 
-| Methode | Pfad | Path-Parameter | Query-Parameter | Header | Request-Body | Response-Codes | Response-Format | Beschreibung |
+| Methode | Pfad | Path-Parameter | Query-Parameter | Header | Request-[[Body]] | Response-Codes | Response-Format | Beschreibung |
 |---------|------|----------------|-----------------|--------|--------------|----------------|-----------------|--------------|
 | DELETE | /api/edge/admin/cache/all | – | – | – | – | 200 | JSON | Leert den gesamten Cache. |
 | DELETE | /api/edge/admin/cache/files/{path:.+} | path:String (pflicht) | – | – | – | 200, 400 | JSON | Invalidiert eine einzelne Datei im Cache. |
@@ -42,8 +42,8 @@ _Automatisch aus Spring-Controller-Annotationen generiert._
 |---------|------|----------------|-----------------|--------|--------------|----------------|-----------------|--------------|
 | GET | /api/cdn/admin/audit | – | userId:long (pflicht)<br>from:String (optional)<br>to:String (optional)<br>action:String (optional)<br>result:String (optional) | – | – | 200 | JSON | Liefert Audit-Logs eines spezifizierten Users als JSON-Liste. |
 | GET | /api/cdn/admin/audit/export | – | userId:long (pflicht)<br>from:String (optional)<br>to:String (optional)<br>action:String (optional)<br>result:String (optional) | – | – | 200 | text/csv | Exportiert Audit-Logs eines spezifizierten Users als CSV. |
-| DELETE | /api/cdn/admin/cache/region/{region}/all | region:String (pflicht) | – | – | – | – | Kein Body | Entfernt den kompletten Cache einer Region. |
-| DELETE | /api/cdn/admin/cache/region/{region}/files/{path:.+} | region:String (pflicht)<br>path:String (pflicht) | – | – | – | – | Kein Body | Invalidiert eine konkrete Datei in der angegebenen Region. |
+| DELETE | /api/cdn/admin/cache/region/{region}/all | region:String (pflicht) | – | – | – | – | Kein [[Body]] | Entfernt den kompletten Cache einer Region. |
+| DELETE | /api/cdn/admin/cache/region/{region}/[[Files]]/{path:.+} | region:String (pflicht)<br>path:String (pflicht) | – | – | – | – | Kein Body | Invalidiert eine konkrete Datei in der angegebenen Region. |
 | DELETE | /api/cdn/admin/cache/region/{region}/prefix | region:String (pflicht) | value:String (pflicht) | – | – | – | Kein Body | Invalidiert alle Dateien mit dem angegebenen Prefix in der Region. |
 | GET | /api/cdn/admin/edges/managed | – | – | – | – | 200 | Kein Body | Listet alle verwalteten Edge-Instanzen. |
 | DELETE | /api/cdn/admin/edges/region/{region} | region:String (pflicht) | deregister:boolean (optional, default=true) | – | – | 200, 400, 404 | JSON | Stoppt alle managed Edges einer Region. |
@@ -51,9 +51,9 @@ _Automatisch aus Spring-Controller-Annotationen generiert._
 | POST | /api/cdn/admin/edges/start/auto | – | – | – | AutoStartEdgesRequest | 201, 409 | JSON | Startet mehrere Edge-Instanzen automatisch. |
 | DELETE | /api/cdn/admin/edges/{instanceId} | instanceId:String (pflicht) | deregister:boolean (optional, default=true) | – | – | 200, 404 | JSON | Stoppt eine verwaltete Edge-Instanz. |
 | GET | /api/cdn/admin/files | – | page:int (optional, default=1)<br>size:int (optional, default=20) | – | – | variabel | JSON | Listet alle Dateien im Origin auf (inkl. Pagination). Ruft den Origin direkt über den Router-Admin-API-Endpunkt ab. |
-| DELETE | /api/cdn/admin/files/{*path} | path:String (pflicht) | region:String (optional) | – | – | 204, variabel | JSON | Löschen einer Datei vom Origin und invalidieren aller Edge-Caches in der Region (oder global). |
-| GET | /api/cdn/admin/files/{*path} | path:String (pflicht) | – | – | – | variabel | JSON | Zeigt Metadaten einer Datei im Origin an. Ruft den Origin direkt über den Router-Admin-API-Endpunkt ab. |
-| PUT | /api/cdn/admin/files/{*path} | path:String (pflicht) | region:String (optional) | – | byte[] | 200, variabel | JSON | Hochladen einer Datei zum Origin und invalidieren aller Edge-Caches in der Region (oder global). |
+| DELETE | /api/cdn/admin/[[Files]]/{*path} | path:String (pflicht) | region:String (optional) | – | – | 204, variabel | JSON | Löschen einer Datei vom Origin und invalidieren aller Edge-Caches in der Region (oder global). |
+| GET | /api/cdn/admin/[[Files]]/{*path} | path:String (pflicht) | – | – | – | variabel | JSON | Zeigt Metadaten einer Datei im Origin an. Ruft den Origin direkt über den Router-Admin-API-Endpunkt ab. |
+| PUT | /api/cdn/admin/[[Files]]/{*path} | path:String (pflicht) | region:String (optional) | – | byte[] | 200, variabel | JSON | Hochladen einer Datei zum Origin und invalidieren aller Edge-Caches in der Region (oder global). |
 | GET | /api/cdn/admin/origin/cluster | – | checkHealth:boolean (optional, default=false) | – | – | 200 | JSON | getCluster |
 | POST | /api/cdn/admin/origin/failover/check | – | – | – | – | 200 | JSON | runFailoverCheck |
 | POST | /api/cdn/admin/origin/promote | – | url:String (pflicht) | – | – | 200, 400, 404 | JSON | promote |
@@ -69,11 +69,11 @@ _Automatisch aus Spring-Controller-Annotationen generiert._
 | GET | /api/cdn/ready | – | – | – | – | 200 | JSON | Readiness-Endpunkt, der die Betriebsbereitschaft des Routers signalisiert. |
 | DELETE | /api/cdn/routing | – | region:String (pflicht)<br>url:String (pflicht) | – | – | 200, 404 | JSON | Entfernt eine Edge-Instanz aus der Region. |
 | GET | /api/cdn/routing | – | checkHealth:boolean (optional, default=false) | – | – | 200 | JSON | Liefert den aktuellen Routing-Index. |
-| POST | /api/cdn/routing | – | region:String (pflicht)<br>url:String (pflicht) | – | – | 201 | Kein Body | Fuegt eine Edge-Instanz zur Region hinzu. |
+| POST | /api/cdn/routing | – | region:String (pflicht)<br>url:String (pflicht) | – | – | 201 | Kein [[Body]] | Fuegt eine Edge-Instanz zur Region hinzu. |
 | POST | /api/cdn/routing/bulk | – | – | – | List<BulkRequest> | 200 | JSON | Fuehrt mehrere Routing-Updates in einem Request aus. |
 | GET | /api/cdn/stats | – | windowSec:int (optional, default=60) | X-User-Id:String (optional) | – | 200, 401 | JSON | Liefert eine aggregierte Statistik für ein Zeitfenster. |
 | GET | /api/cdn/stats/file/{fileId} | fileId:long (pflicht) | – | X-User-Id:String (optional) | – | 200, 400, 401, 404 | JSON | Liefert Detaildaten für eine Datei-ID aus der aktuellen Rangliste. |
-| GET | /api/cdn/stats/files | – | limit:int (optional, default=10) | X-User-Id:String (optional) | – | 200, 401 | JSON | Liefert die Top-Dateien nach Download-Anzahl. |
+| GET | /api/cdn/stats/[[Files]] | – | limit:int (optional, default=10) | X-User-Id:String (optional) | – | 200, 401 | JSON | Liefert die Top-Dateien nach Download-Anzahl. |
 
 Hinweise:
 - `Response-Codes` werden heuristisch aus `ResponseEntity`-Aufrufen im Code erkannt.

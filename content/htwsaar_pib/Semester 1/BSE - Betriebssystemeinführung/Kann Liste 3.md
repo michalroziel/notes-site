@@ -83,7 +83,7 @@ komme:
 
 - mit relativem Pfad und Sonderzeichen "~"  
     Dabei liegen die beiden Verzeichnisse PRG-SPR/ueb01 und  
-    Beispiele/c in meinem HOME-Directory .
+    Beispiele/[[C]] in meinem HOME-Directory .
 
   
 
@@ -124,7 +124,7 @@ cd ~/Beispiele/c
 
 - d → Directories ( Ordner )
 
-- c → Zeichenorientierte Geräte ( Tastatur )
+- [[C]] → Zeichenorientierte Geräte ( Tastatur )
 
 - l → Links ( Verknüpfungen )
 

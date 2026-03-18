@@ -146,13 +146,13 @@ Kommando [ [ option [w] [qualifier] ] ... [w] [filen_name ...]
 
   
 
-- z.B wc → ==w==ord ==c==ount
+- z.B wc → ==w==ord ==[[C]]==ount
 
-- cp → ==c==o==p==y
+- cp → ==[[C]]==o==p==y
 
 - tar → ==ta==pe ==ar==chive
 
-- t → table of contents leffiurei
+- t → [[table of contents]] leffiurei
 
 - d → destination
 
@@ -169,7 +169,7 @@ Kommando [ [ option [w] [qualifier] ] ... [w] [filen_name ...]
 wc -l -c | wc -c -l | wc -lc | wc -cl 
 ```
 
-- filename : relativer / absoluter Pfadname files
+- filename : relativer / absoluter Pfadname [[Files]]
 
   
 

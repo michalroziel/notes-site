@@ -4,7 +4,7 @@
 
   
 
-- sehen wir im Login - Screen von der VM
+- sehen wir im [[Login]] - Screen von der VM
 
   
 
@@ -85,7 +85,7 @@ ls ~ .??n*
 Ordnern anzeigen lassen kann, deren Name mit "pe " bzw.  
 "p i " beginnt und mit "e " endet. Dabei stehe ich in meinem  
 HOME-Directory und die fraglichen Ordner liegen im Teilbaum  
-Beispiele /java /fuer_anfaenger-BlueJ .
+Beispiele /[[Java]] /fuer_anfaenger-BlueJ .
 
   
 

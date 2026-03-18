@@ -4,13 +4,13 @@
 
 ## Was ist ein Betriebssystem?
 	
-Ein Betriebssystem ist eine Software, die die Teile eines Computers wie Prozessor, Speicher und Geräte verwaltet und für Programme nutzbar macht.
+Ein Betriebssystem ist eine Software, die die Teile eines Computers wie Prozessor, [[Speicher]] und Geräte verwaltet und für Programme nutzbar macht.
 
   
 
 ## Welche benutzerstellen gibt es ?
 
-GUI (Graphische Oberfläche ) und CLI (**C**ommand **L**ine **I**nterface)
+GUI (Graphische Oberfläche ) und CLI (**[[C]]**ommand **L**ine **I**nterface)
 
   
 
@@ -24,7 +24,7 @@ GUI (Graphische Oberfläche ) und CLI (**C**ommand **L**ine **I**nterface)
 
 3. **Ressourcen verwalten:**
 
-• Es teilt Programme fair auf Ressourcen wie Speicher oder Prozessorzeit auf und schützt Daten (z. B. durch [[Vorlesung 3|Zugriffsrechte]]).
+• Es teilt Programme fair auf Ressourcen wie [[Speicher]] oder Prozessorzeit auf und schützt Daten (z. B. durch [[Vorlesung 3|Zugriffsrechte]]).
 
 4. **Prozesse koordinieren:**
 

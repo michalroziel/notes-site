@@ -45,7 +45,7 @@ Das is auch gut fuer das raeumliche Denken!
 
 2.6 Qualitative Stoffanalyse
 
-2.7 Interpretation naturwissenschaftlicher Abbildungen und Tabellen
+2.7 Interpretation naturwissenschaftlicher [[Abbildungen]] und Tabellen
 
 2.8 Analyse quantitativer Zusammenhänge
 

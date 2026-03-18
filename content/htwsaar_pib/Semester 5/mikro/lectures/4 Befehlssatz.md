@@ -173,7 +173,7 @@ Nachteil : LR hat eine Rücksprungadresse, Unterprogramme überschreiben Linkreg
 *Unterprogramm* ruft *Unterprogramm* auf, hierbei müsssen wir LR speichern
 
 Spekulatives Laden : Der ARM7TDMI hat es nicht ! 
-	Hierbei kann der Prozessor Daten aus dem Speicher vorladen 
+	Hierbei kann der Prozessor Daten aus dem [[Speicher]] vorladen 
 
 ```
 

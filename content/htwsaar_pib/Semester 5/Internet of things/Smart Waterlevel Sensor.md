@@ -16,7 +16,7 @@
 
 - ESP32 sends Data to home DataBase
 
-- Possibly over WiFI or LoRaWAN → `THE THINGS NETWORK`
+- Possibly over WiFI or [[LoRaWAN]] → `THE THINGS NETWORK`
 
 ## 3. Process Data :
 

@@ -1,4 +1,4 @@
-v10 - Funktionen:  
+v10 - [[Funktionen]]:  
 -----------------  
 - Definition  
 - Funktionsaufruf  

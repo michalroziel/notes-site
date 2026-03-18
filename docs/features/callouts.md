@@ -23,7 +23,7 @@ See [documentation on supported types and syntax here](https://help.obsidian.md
 
 ## Customization
 
-The callouts are a functionality of the [[ObsidianFlavoredMarkdown]] plugin. See the plugin page for how to enable or disable them.
+The callouts are a functionality of the [[ObsidianFlavoredMarkdown]] [[plugin]]. See the [[plugin]] page for how to enable or disable them.
 
 You can edit the icons by customizing `quartz/styles/callouts.scss`.
 

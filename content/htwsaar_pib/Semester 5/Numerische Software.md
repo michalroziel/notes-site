@@ -25,7 +25,7 @@
 
 ### Note
 
-- 75 % Übungsblätter
+- 75 % [[Übungsblätter]]
 
 - 25 % Fallstudie
 
@@ -37,9 +37,9 @@ Danach online Temrin zur Präsentation → nicht mit Folien / sondern Vorrechnen
 
 Eigene Lösungen zu den Übungsblättern + Lösung zur Fallstudie
 
-Fallstudie ist ein Mikro Projekt zu einem Problem
+Fallstudie ist ein [[MIKRO]] Projekt zu einem Problem
 
-- Kurze Beschreibung → Algorithmen selbst implementieren
+- Kurze Beschreibung → [[Algorithmen]] selbst implementieren
 
   
 

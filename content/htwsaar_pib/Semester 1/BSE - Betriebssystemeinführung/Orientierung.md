@@ -6,7 +6,7 @@
 
   
 
-- Login / Realer User
+- [[Login]] / Realer User
 
 - Effektiver User
     
@@ -68,7 +68,7 @@ michalroziel@MBP-michal-5 htwbse %
 
 - Als besonderes Directory → Home Directory
 
-- Im Home Directory unmittelbar nach dem Login
+- Im Home Directory unmittelbar nach dem [[Login]]
 
   
 
@@ -87,7 +87,7 @@ ls -lR -> ausführliche variante Rekursiv
 
 ## Root Verzeichnis
 
-![[/Untitled 3.png|Untitled 3.png]]
+![[/[[Untitled]] 3.png|[[Untitled]] 3.png]]
 
   
 
@@ -99,7 +99,7 @@ ls -lR -> ausführliche variante Rekursiv
 
 ### Character Divises / Block divises
 
-- Block Größe von Speicher Bits an verschiedenen Festplatten / verschiedenen Bit Systemen
+- Block Größe von [[Speicher]] Bits an verschiedenen Festplatten / verschiedenen Bit Systemen
 
   
 
@@ -130,7 +130,7 @@ baobab
 
   
 
-![[Untitled 1.png]]
+![[[[Untitled 1]].png]]
 
   
 

@@ -1,5 +1,5 @@
 
-- End to End REcovery Test für den Stack aus Origin, edge, Router 
+- End to End REcovery [[test]] für den Stack aus Origin, edge, Router 
 	- Nicht nur restart, sondern auch recovery von zustand der edge 
 
 
@@ -42,7 +42,16 @@ Cache Entries : Edge Cache State Store
 
 - Die 10 000 requests gehen an den `router` 
 - ABER : `curl` folgt dem redirect nicht - `Option ausgelassen `
+	- Wir Prüfen ob der Router auch unter Last den richtigen Edge Auswählen kann 
 - Es wird geprüft ob das routing `funktioniert`
 
 > Die Requests holen die Datei nicht 10 000 mal von der edge 
+> 10k anfragen hintereinander, normales `curl` aber ohne redirect. 
+
+>[!important] 
+> Gemessen wird nicht die Zeit von den 10k Requests, sondern vom kill zu neustart 
+
+
+
+
 

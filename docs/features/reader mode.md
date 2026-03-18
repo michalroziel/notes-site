@@ -8,7 +8,7 @@ Reader Mode is a feature that allows users to focus on the content by hiding the
 
 ## Configuration
 
-Reader Mode is enabled by default. To disable it, you can remove the component from your layout configuration in `quartz.layout.ts`:
+Reader Mode is enabled by default. To disable it, you can remove the [[component]] from your [[layout]] [[configuration]] in `quartz.[[layout]].ts`:
 
 ```ts
 // Remove or comment out this line
@@ -26,7 +26,7 @@ Unlike Dark Mode, Reader Mode state is not persisted between page reloads but is
 
 ## Customization
 
-You can customize the appearance of Reader Mode through CSS variables and styles. The component uses the following classes:
+You can customize the appearance of Reader Mode through CSS variables and styles. The [[component]] uses the following classes:
 
 - `.readermode`: The toggle button
 - `.readerIcon`: The book icon

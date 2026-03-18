@@ -30,7 +30,7 @@ After entering both your repository and selecting the discussion category, Giscu
 
 ![[giscus-results.png]]
 
-Finally, in `quartz.layout.ts`, edit the `afterBody` field of `sharedPageComponents` to include the following options but with the values you got from above:
+Finally, in `quartz.[[layout]].ts`, edit the `afterBody` field of `sharedPageComponents` to include the following options but with the values you got from above:
 
 ```ts title="quartz.layout.ts"
 afterBody: [
@@ -102,7 +102,7 @@ type Options = {
 
 #### Custom CSS theme
 
-Quartz supports custom theme for Giscus. To use a custom CSS theme, place the `.css` file inside the `quartz/static` folder and set the configuration values.
+Quartz supports custom theme for Giscus. To use a custom CSS theme, place the `.css` file inside the `quartz/[[Static]]` folder and set the [[configuration]] values.
 
 For example, if you have a light theme `light-theme.css`, a dark theme `dark-theme.css`, and your Quartz site is hosted at `https://example.com/`:
 
@@ -123,7 +123,7 @@ afterBody: [
 
 #### Conditionally display comments
 
-Quartz can conditionally display the comment box based on a field `comments` in the frontmatter. By default, all pages will display comments, to disable it for a specific page, set `comments` to `false`.
+Quartz can conditionally display the comment box based on a field `comments` in the [[Frontmatter]]. By default, all pages will display comments, to disable it for a specific page, set `comments` to `false`.
 
 ```
 ---

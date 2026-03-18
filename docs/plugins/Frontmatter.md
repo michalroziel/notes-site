@@ -15,7 +15,7 @@ This plugin accepts the following configuration options:
 - `language`: the language to use for parsing the frontmatter. Can be `yaml` (default) or `toml`.
 
 > [!warning]
-> This plugin must not be removed, otherwise Quartz will break.
+> This [[plugin]] must not be removed, otherwise Quartz will break.
 
 ## List
 
@@ -23,12 +23,12 @@ Quartz supports the following frontmatter:
 
 - title
   - `title`
-- description
-  - `description`
+- [[Description]]
+  - `[[Description]]`
 - permalink
   - `permalink`
-- comments
-  - `comments`
+- [[comments]]
+  - `[[comments]]`
 - lang
   - `lang`
 - publish
@@ -68,5 +68,5 @@ Quartz supports the following frontmatter:
 ## API
 
 - Category: Transformer
-- Function name: `Plugin.Frontmatter()`.
+- Function name: `[[plugin]].Frontmatter()`.
 - Source: [`quartz/plugins/transformers/frontmatter.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/transformers/frontmatter.ts).

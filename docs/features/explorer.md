@@ -124,7 +124,7 @@ Component.Explorer({
 
 ### Change display names (`map`)
 
-Using this example, the display names of all `FileNodes` (folders + files) will be converted to full upper case.
+Using this example, the display names of all `FileNodes` (folders + [[Files]]) will be converted to full upper case.
 
 ```ts title="quartz.layout.ts"
 Component.Explorer({
@@ -137,7 +137,7 @@ Component.Explorer({
 
 ### Remove list of elements (`filter`)
 
-Using this example, you can remove elements from your explorer by providing an array of folders/files to exclude.
+Using this example, you can remove elements from your explorer by providing an array of folders/[[Files]] to exclude.
 Note that this example filters on the title but you can also do it via slug or any other field available on `FileTrieNode`.
 
 ```ts title="quartz.layout.ts"
@@ -181,11 +181,11 @@ Component.Explorer({
 ## Advanced examples
 
 > [!tip]
-> When writing more complicated functions, the `layout` file can start to look very cramped.
-> You can fix this by defining your sort functions outside of the component
+> When writing more complicated functions, the `[[layout]]` file can start to look very cramped.
+> You can fix this by defining your sort functions outside of the [[component]]
 > and passing it in.
 >
-> ```ts title="quartz.layout.ts"
+> ```ts title="quartz.[[layout]].ts"
 > import { Options } from "./quartz/components/Explorer"
 >
 > export const mapFn: Options["mapFn"] = (node) => {
@@ -198,7 +198,7 @@ Component.Explorer({
 >   // implement your function here
 > }
 >
-> Component.Explorer({
+> [[component]].Explorer({
 >   // ... your other options
 >   mapFn,
 >   filterFn,
@@ -208,7 +208,7 @@ Component.Explorer({
 
 ### Add emoji prefix
 
-To add emoji prefixes (📁 for folders, 📄 for files), you could use a map function like this:
+To add emoji prefixes (📁 for folders, 📄 for [[Files]]), you could use a map function like this:
 
 ```ts title="quartz.layout.ts"
 Component.Explorer({

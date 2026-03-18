@@ -53,9 +53,9 @@ public class FormattingExample {
 
   
 
-public class Main{
+public [[class]] Main{
 
-public static void main(String[] args){
+public [[Static]] void main(String[] args){
 
 System.out.println( isPalindrome( "H ! A?N ? . NA.!H") ) ;
 

@@ -4,7 +4,7 @@ title: Setting up your GitHub repository
 
 First, make sure you have Quartz [[index#🪴 Get Started|cloned and setup locally]].
 
-Then, create a new repository on GitHub.com. Do **not** initialize the new repository with `README`, license, or `gitignore` files.
+Then, create a new repository on GitHub.com. Do **not** initialize the new repository with `[[remote-notes/README|README]]`, [[my-notes-site/node_modules/source-map-support/LICENSE|LICENSE]], or `gitignore` [[Files]].
 
 ![[github-init-repo-options.png]]
 

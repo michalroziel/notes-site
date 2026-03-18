@@ -1,6 +1,6 @@
 # Stabile Elemente und Oktettregel
 
-Edelgase sind die stabilsten Elemente im Periodensystem.
+Edelgase sind die stabilsten Elemente im [[Periodensystem]].
 
 Sie reagieren kaum mit anderen Stoffen weil Sie eine stabile ElektronenKonfiguration besitzen.
 

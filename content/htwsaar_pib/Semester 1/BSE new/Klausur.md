@@ -17,7 +17,7 @@ b) es gabs 2 senario
 /dev/sdb1  /daten1  ext4  defaults  0  0
 ```
 
-c. wie kann ein Verzeichnis öffen
+[[C]]. wie kann ein Verzeichnis öffen
 
 d. Wie kann man alle versteckten dateien sehen und dazu die Rechte
 
@@ -81,7 +81,7 @@ EXIt 0 Erklären und Exit 1 erklären
 
 1. Es kam ein Programm, denn sollte man interpretieren und sagen was jeder Zeile macht, da sollte man wissen was  
     Das wäre gut zu wissen!  
-    - Zeichenketten (Stringvergleich) test  
+    - Zeichenketten (Stringvergleich) [[test]]  
     - Operatoren zum testen des Dateityps  
     - Operatoren zum Testen der Zugriffsrechte
 

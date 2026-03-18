@@ -6,7 +6,7 @@
 
   
 
-![[Untitled.png]]
+![[[[Untitled]].png]]
 
   
 
@@ -67,7 +67,7 @@ von BMW und Toyota
 
 - joint development of a fuel cell system
 
-- joint development of architecture and components for a sports vehicle
+- joint development of [[architecture]] and components for a sports vehicle
 
 - joint research and development of lightweight technologies.
 

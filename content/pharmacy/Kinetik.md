@@ -4,7 +4,7 @@
 
 ![](Kinetik%20-%20Screenshot_2025-11-12_at_19.20.20.png)
 
-Radioaktiver Zerfall
+[[Radioaktiver Zerfall]]
 
 ![](Kinetik%20-%20Screenshot_2025-11-12_at_19.33.15.png)
 

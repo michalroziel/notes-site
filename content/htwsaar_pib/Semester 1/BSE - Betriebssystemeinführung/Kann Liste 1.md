@@ -14,7 +14,7 @@
 
 - Bereitstellung einer Benutzerschnittstelle
 
-- Prozess und Speicher Verwaltung
+- Prozess und [[Speicher]] Verwaltung
 
 - Koordination von Prozessen
 
@@ -24,9 +24,9 @@
 
 - Ein Computer besteht aus drei Teilen :
     
-    1. Hardware - Komponenten ( Prozessor , Speicher , Disk )
+    1. Hardware - Komponenten ( Prozessor , [[Speicher]] , Disk )
     
-    1. BetriebssystemKern - verwaltet Resources, Speicher, Systemaufrufe → Generell für Kommunikation zuständig
+    1. BetriebssystemKern - verwaltet Resources, [[Speicher]], Systemaufrufe → Generell für Kommunikation zuständig
     
     1. Softwares - Open Source Programme
     

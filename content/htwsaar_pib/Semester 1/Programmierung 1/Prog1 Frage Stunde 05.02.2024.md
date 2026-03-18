@@ -2,7 +2,7 @@
 
 ### Multiple Choice Questions
 
-- 30-40% der Klausur
+- 30-40% der [[Klausur]]
 
 - entweder eins oder mehrere richtige
 
@@ -22,9 +22,9 @@
 
 ### Vorbereitung
 
-- Vor-Ort-Übungen
+- Vor-Ort-[[my-notes-site/content/htwsaar_pib/Semester 5/Verteilte Systeme/Übungen|Übungen]]
 
-- Pair-Programming Tasks in der Klausur
+- Pair-Programming Tasks in der [[Klausur]]
 
 - Aufgaben aus dem Buch
 

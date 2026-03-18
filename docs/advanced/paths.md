@@ -2,7 +2,7 @@
 title: Paths in Quartz
 ---
 
-Paths are pretty complex to reason about because, especially for a static site generator, they can come from so many places.
+Paths are pretty complex to reason about because, especially for a [[Static]] site generator, they can come from so many places.
 
 A full file path to a piece of content? Also a path. What about a slug for a piece of content? Yet another path.
 
@@ -41,11 +41,11 @@ graph LR
     style FullSlug stroke-width:4px
 ```
 
-Here are the main types of slugs with a rough description of each type of path:
+Here are the main types of slugs with a rough [[Description]] of each type of path:
 
 - `FilePath`: a real file path to a file on disk. Cannot be relative and must have a file extension.
-- `FullSlug`: cannot be relative and may not have leading or trailing slashes. It can have `index` as it's last segment. Use this wherever possible is it's the most 'general' interpretation of a slug.
-- `SimpleSlug`: cannot be relative and shouldn't have `/index` as an ending or a file extension. It _can_ however have a trailing slash to indicate a folder path.
-- `RelativeURL`: must start with `.` or `..` to indicate it's a relative URL. Shouldn't have `/index` as an ending or a file extension but can contain a trailing slash.
+- `FullSlug`: cannot be relative and may not have leading or trailing slashes. It can have `[[my-notes-site/docs/index|index]]` as it's last segment. Use this wherever possible is it's the most 'general' interpretation of a slug.
+- `SimpleSlug`: cannot be relative and shouldn't have `/[[my-notes-site/docs/index|index]]` as an ending or a file extension. It _can_ however have a trailing slash to indicate a folder path.
+- `RelativeURL`: must start with `.` or `..` to indicate it's a relative URL. Shouldn't have `/[[my-notes-site/docs/index|index]]` as an ending or a file extension but can contain a trailing slash.
 
-To get a clearer picture of how these relate to each other, take a look at the path tests in `quartz/util/path.test.ts`.
+To get a clearer picture of how these relate to each other, take a look at the path [[remote-notes/sem3/mikro/Tests/Tests|Tests]] in `quartz/util/path.[[test]].ts`.

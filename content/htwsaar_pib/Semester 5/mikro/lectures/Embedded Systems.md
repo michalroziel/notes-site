@@ -1,6 +1,6 @@
 [[my-notes-site/content/htwsaar_pib/Semester 5/mikro/lectures/ARM7]]
 ###### Der Asynchrone Interrupt 
-Wenn wir etwas in den Speicher schreiben wo eigentlich kein Speicher ist, wird ein *Abort-interrupt* ausgeführt
+Wenn wir etwas in den [[Speicher]] schreiben wo eigentlich kein [[Speicher]] ist, wird ein *Abort-interrupt* ausgeführt
 
 ```
 svc befehl 
@@ -20,7 +20,7 @@ Das System startet im Supervisor Modus mit reset Befehl -> höchste Priorität
 
 ##### Deeply Embedded Bereich 
 Hier gibt es keine verschiedene Prozesse und keine virtuelle Speicherverwaltung 
-Nicht wie in einem Computer wo wir den File Explorer, etc starten können
+Nicht wie in einem Computer wo wir den File [[explorer]], etc starten können
 
 Es gibt im kritische Anwendungsbereiche für Embedded Systems 
 
@@ -49,7 +49,7 @@ ISR sollten kurz und klein woei kompakt sein
 QUATIX , CORTEX ? M32 ; M... haben den gleichen Interrupt Controller 
 
 ### MMU 
-der ARM7 hat *keine MMU-Memmory management Unit*
+der [[remote-notes/sem3/mikro/lectures/ARM7|ARM7]] hat *keine MMU-Memmory management Unit*
 
 > In Systemen ohne MMU oder bei einem ungültigen Instruktionswort ist die zugehörige Unterbrechung lediglich das Symptom eines vorangegengen, sehr schwerwiegenden Software-Bugs 
 
@@ -64,7 +64,7 @@ Mit dieser Verbindung können
 Adress Bus , Adressdecoder Adresse vergleichen
 
 #### Peripherie vs Speicher
-Speicher : bleibt so lange stehen bis wir was reinschreiben 
+[[Speicher]] : bleibt so lange stehen bis wir was reinschreiben 
 
 
 Peripherie :

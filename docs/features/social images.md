@@ -16,4 +16,4 @@ After enabling the [[CustomOgImages]] emitter plugin, the social media link prev
 
 ## Configuration
 
-This functionality is provided by the [[CustomOgImages]] plugin. See the plugin page for customization options.
+This functionality is provided by the [[CustomOgImages]] [[plugin]]. See the [[plugin]] page for customization options.

@@ -132,7 +132,7 @@
     HOME=/Users/michalroziel
     LOGNAME=michalroziel
     USER=michalroziel
-    PATH=/opt/homebrew/opt/openjdk@17/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin
+    PATH=/opt/homebrew/opt/openjdk@17/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.[[my-notes-site/node_modules/typescript/SECURITY|SECURITY]].cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.[[my-notes-site/node_modules/typescript/SECURITY|SECURITY]].cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.[[my-notes-site/node_modules/typescript/SECURITY|SECURITY]].cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin
     SHLVL=1
     PWD=/Users/michalroziel
     OLDPWD=/Users/michalroziel/Documents/htwbse
@@ -177,7 +177,7 @@
 
   
 
-> [!important] Tests : [ ! - 0 ] [ ! ! ! ] [ ! - - 1 ]
+> [!important] [[remote-notes/sem3/mikro/Tests/Tests|Tests]] : [ ! - 0 ] [ ! ! ! ] [ ! - - 1 ]
 
 ### Beispiele
 

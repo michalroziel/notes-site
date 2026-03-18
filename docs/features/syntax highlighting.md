@@ -4,14 +4,14 @@ tags:
   - feature/transformer
 ---
 
-Syntax highlighting in Quartz is completely done at build-time. This means that Quartz only ships pre-calculated CSS to highlight the right words so there is no heavy client-side bundle that does the syntax highlighting.
+Syntax highlighting in Quartz is completely done at [[build]]-time. This means that Quartz only ships pre-calculated CSS to highlight the right words so there is no heavy client-side bundle that does the syntax highlighting.
 
 And, unlike some client-side highlighters, it has a full TextMate parser grammar instead of using Regexes, allowing for highly accurate code highlighting.
 
 In short, it generates HTML that looks exactly like your code in an editor like VS Code. Under the hood, it's powered by [Rehype Pretty Code](https://rehype-pretty-code.netlify.app/) which uses [Shiki](https://github.com/shikijs/shiki).
 
 > [!warning]
-> Syntax highlighting does have an impact on build speed if you have a lot of code snippets in your notes.
+> Syntax highlighting does have an impact on [[build]] speed if you have a lot of code snippets in your notes.
 
 ## Formatting
 
@@ -140,4 +140,4 @@ const [name, setName] = useState('Taylor');
 
 ## Customization
 
-Syntax highlighting is a functionality of the [[SyntaxHighlighting]] plugin. See the plugin page for customization options.
+Syntax highlighting is a functionality of the [[SyntaxHighlighting]] [[plugin]]. See the [[plugin]] page for customization options.

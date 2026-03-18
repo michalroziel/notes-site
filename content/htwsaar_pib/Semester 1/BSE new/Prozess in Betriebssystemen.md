@@ -46,7 +46,7 @@ Und mit dem Commando ==top==, sieht du live , welche Prozesse gerade ie CPU benu
 
 ## Übung
 
-Aufgabe 4-4: Übungen zu [[UNINTS|Diensten und Units]]
+Aufgabe 4-4: [[my-notes-site/content/htwsaar_pib/Semester 5/Verteilte Systeme/Übungen|Übungen]] zu [[UNINTS|Diensten und Units]]
 
 1. **Mit welchem Kommando kann man einen Dienst starten bzw. stoppen?**  
     FINDE NICHT IN DER VORLESUNG
@@ -60,7 +60,7 @@ Aufgabe 4-4: Übungen zu [[UNINTS|Diensten und Units]]
   
   
 
-Aufgabe 4-5: Übungen zur Prozesssteuerung
+Aufgabe 4-5: [[my-notes-site/content/htwsaar_pib/Semester 5/Verteilte Systeme/Übungen|Übungen]] zur Prozesssteuerung
 
  **Ein Prozess mit der PID 12345 benötigt eine geordnete Beendigung, damit er seine**  
     **Daten sichern kann. Sie möchten verhindern, dass wichtige Daten verloren gehen.**  
@@ -94,7 +94,7 @@ B) 0 ist erfolgrei und andere zahelen heißen fehler
 
   
 
-Aufgabe 4-7: Übungen zu [[Vorlesung 4|Cron]] und Automatisierung (keine ahnung wie die aufgabe funktsoniert…
+Aufgabe 4-7: [[my-notes-site/content/htwsaar_pib/Semester 5/Verteilte Systeme/Übungen|Übungen]] zu [[Vorlesung 4|Cron]] und Automatisierung (keine ahnung wie die aufgabe funktsoniert…
 
 1. Sie möchten das Skript [backup.sh](http://backup.sh/) jeden Tag um Mitternacht automatisch ausführen lassen.  
     • Wie würden Sie den Crontab-Eintrag schreiben, um diese Aufgabe zu automatisieren?  

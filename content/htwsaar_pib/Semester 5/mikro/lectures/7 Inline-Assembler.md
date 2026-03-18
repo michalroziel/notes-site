@@ -7,12 +7,12 @@ Intrinsics : Compiler umsortiert bei der Optimierung die Befehler nicht
 Wir schreiben : Flag setzen, dann Code ausführen
 	Wenn Compiler umsortiert : Falsche Ergebnisse 
 
-ARM C-lang hat noch nicht alles drin -> Store LDRX ? 
+ARM [[C]]-lang hat noch nicht alles drin -> Store LDRX ? 
 
 ARMC ( erster Prozessor ) : es gab intrisics, haben aber falschen code erzeugt
 
 ## Mit dem Inline Assembler : 
-C und Assembly Routinen mischen 
+[[C]] und Assembly Routinen mischen 
 
 Schlüsselwörter : ``` asm , _asm  oder _asm_ ```
 Jeder Anbieter hat siene eigene Syntax 
@@ -39,7 +39,7 @@ Reihenfolge der Register in der Angabe : von Links nach Rechts
 Hochgradig Optimierte Compiler heutzutage : Code wird übersetzt (Maschinenunabhängig) und wird dann auf Maschinensprache übersetzt, Optimierung passiert auf dem Maschinenunabhänigegen Code
 
 
-Durch viele Probleme der Interaktion und Interoperation von ASM und C wurde die erweiterte Syntax entwickelt. 
+Durch viele Probleme der Interaktion und Interoperation von ASM und [[C]] wurde die erweiterte Syntax entwickelt. 
 
 
 ## 7.3 Erwiterte Syntax 
@@ -120,7 +120,7 @@ a = 1;
 b = 2;
 c = a+b;  <-- 32 Bit 
 ```
-STRH ? zum speichern für c? 
+STRH ? zum speichern für [[C]]? 
 L und R -Values beachten 
 
 ```
@@ -202,7 +202,7 @@ for ( int i = 0; i  <100 ; i++ ) {
 Würde die anweisung count aus der Schleife rausziehen
 ```
 
-*volatile* Betrifft nur C compiler 
+*volatile* Betrifft nur [[C]] compiler 
 
 
 ### Was tun damit es nicht verändert / wegoptimiert wird ? 

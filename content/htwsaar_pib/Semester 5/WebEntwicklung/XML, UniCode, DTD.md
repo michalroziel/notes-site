@@ -54,7 +54,7 @@ Grundlagen von XML     <-- Content des Elements
 
 ### DTD : Declaration
 
-- DTD : Document Type Definition, specifies rules on how XML files are structured
+- DTD : Document Type Definition, specifies rules on how XML [[Files]] are structured
 
 - an XML is valid, if it follows these rules
 
@@ -136,7 +136,7 @@ elterneintrag    IDREF   \#REQUIRED
 
 > [!important]
 > 
-> DTD FIles können `standalone` sein → werden nicht validiert  
+> DTD [[Files]] können `standalone` sein → werden nicht validiert  
 > Mit Reglwerk → werden gegen diese Rules geprüft
 
   

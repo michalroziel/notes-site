@@ -4,13 +4,13 @@ tags:
   - feature/transformer
 ---
 
-Quartz uses [Katex](https://katex.org/) by default to typeset both inline and block math expressions at build time.
+Quartz uses [Katex](https://katex.org/) by default to typeset both inline and block [[MATH]] expressions at [[build]] time.
 
 ## Syntax
 
 ### Block Math
 
-Block math can be rendered by delimiting math expression with `$$`.
+Block [[MATH]] can be rendered by delimiting [[MATH]] expression with `$$`.
 
 ```
 $$
@@ -28,14 +28,14 @@ $$
 
 $$
 \begin{aligned}
-a &= b + c \\ &= e + f \\
+a &= b + [[C]] \\ &= e + f \\
 \end{aligned}
 $$
 
 $$
 \begin{bmatrix}
 1 & 2 & 3 \\
-a & b & c
+a & b & [[C]]
 \end{bmatrix}
 $$
 
@@ -51,11 +51,11 @@ Ef(x) &= -\frac{\hbar^2}{2m} [4k^2x^2f(x)-4kxf'(x) + f''(x)] + \frac{1}{2}m\omeg
 $$
 
 > [!warn]
-> Due to limitations in the [underlying parsing library](https://github.com/remarkjs/remark-math), block math in Quartz requires the `$$` delimiters to be on newlines like above.
+> Due to limitations in the [underlying parsing library](https://github.com/remarkjs/remark-math), block [[MATH]] in Quartz requires the `$$` delimiters to be on newlines like above.
 
 ### Inline Math
 
-Similarly, inline math can be rendered by delimiting math expression with a single `$`. For example, `$e^{i\pi} = -1$` produces $e^{i\pi} = -1$
+Similarly, inline [[MATH]] can be rendered by delimiting [[MATH]] expression with a single `$`. For example, `$e^{i\pi} = -1$` produces $e^{i\pi} = -1$
 
 ### Escaping symbols
 
@@ -79,4 +79,4 @@ import "katex/contrib/mhchem"
 
 ## Customization
 
-Latex parsing is a functionality of the [[plugins/Latex|Latex]] plugin. See the plugin page for customization options.
+Latex parsing is a functionality of the [[plugins/Latex|Latex]] [[plugin]]. See the [[plugin]] page for customization options.

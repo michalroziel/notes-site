@@ -1,4 +1,4 @@
-v3 - Umgebungsvariablen, Datei- & Verzeichnisrechte:  
+v3 - [[Umgebungsvariablen]], Datei- & Verzeichnisrechte:  
 ----------------------------------------------------  
 - Was sind Umgebungsvariablen  
 - PATH-Variable, Kommando which  

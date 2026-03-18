@@ -111,7 +111,7 @@ innerhalb 4 wochen nach der Praxisphase wird eine Präsentation stattfinden
     - Mit der Firma kann man diese Phase in verschiedenen Abschnitten absolvieren
     
 
-- Alle Kooperativen Studenten müssen ein Pflichpraktikum absolvieren
+- Alle Kooperativen [[Studenten]] müssen ein Pflichpraktikum absolvieren
 
   
 
