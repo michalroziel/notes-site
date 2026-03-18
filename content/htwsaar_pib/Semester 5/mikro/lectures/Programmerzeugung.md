@@ -1,4 +1,4 @@
-[[my-notes-site/content/htwsaar_pib/5 Semester/mikro/lectures/ARM7]]
+[[my-notes-site/content/htwsaar_pib/Semester 5/mikro/lectures/ARM7]]
 ## Beispiel eines einfachen Programms 
 
 ```
@@ -14,12 +14,12 @@ stop   B   stop     ; stop program
 
 END 
 ```
-Damit der [[my-notes-site/content/htwsaar_pib/5 Semester/mikro/lectures/ARM7]] Assembler einen Code Block erstellt, brauchen wir eine *AREA* Declaration. , *CODE* gibt uns die Art der Daten an, Hierbei : *Instruktionen*
+Damit der [[my-notes-site/content/htwsaar_pib/Semester 5/mikro/lectures/ARM7]] Assembler einen Code Block erstellt, brauchen wir eine *AREA* Declaration. , *CODE* gibt uns die Art der Daten an, Hierbei : *Instruktionen*
 Wir deklarieren diesen Part von dem Code als Read-only. 
 Da Jedes Programm eine ENTRY Deklaration benötigt, schreiben wir diesen danach. 
 
 
-## EIn weiteres einfaches Programm wäre [[my-notes-site/content/htwsaar_pib/5 Semester/mikro/lectures/Factorial Calculation]]
+## EIn weiteres einfaches Programm wäre [[my-notes-site/content/htwsaar_pib/Semester 5/mikro/lectures/Factorial Calculation]]
 
 
 

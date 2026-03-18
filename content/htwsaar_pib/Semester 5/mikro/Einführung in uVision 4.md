@@ -1,4 +1,4 @@
-[[my-notes-site/content/htwsaar_pib/5 Semester/mikro/lectures/ARM7]]
+[[my-notes-site/content/htwsaar_pib/Semester 5/mikro/lectures/ARM7]]
 Date n anfang
 ```
 	Quadrat EQU Datenanfang

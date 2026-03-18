@@ -1,4 +1,4 @@
-[[my-notes-site/content/htwsaar_pib/5 Semester/mikro/lectures/ARM7]]
+[[my-notes-site/content/htwsaar_pib/Semester 5/mikro/lectures/ARM7]]
 ###### Der Asynchrone Interrupt 
 Wenn wir etwas in den Speicher schreiben wo eigentlich kein Speicher ist, wird ein *Abort-interrupt* ausgeführt
 

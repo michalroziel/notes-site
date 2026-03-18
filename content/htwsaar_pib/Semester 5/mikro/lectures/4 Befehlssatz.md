@@ -1,4 +1,4 @@
-[[my-notes-site/content/htwsaar_pib/5 Semester/mikro/lectures/ARM7]]
+[[my-notes-site/content/htwsaar_pib/Semester 5/mikro/lectures/ARM7]]
 # 4.1 Datenmanipulationsbefehle 
 
 Die grün hinterlegden befehle sind vergleichsbefehle -> ändern nur die statusbits 
@@ -112,7 +112,7 @@ Early Termination  : Bestimmte Anzahl von Zyklen
 kann sein n+1 oder n+4 ( oder was dazwischen )
 
 
-### [[my-notes-site/content/htwsaar_pib/5 Semester/mikro/lectures/Mikro Klausur]]
+### [[my-notes-site/content/htwsaar_pib/Semester 5/mikro/lectures/Mikro Klausur]]
 	Multiplizieren mit 15 oder 17 nicht mit MUL
 	sondern wie oben, mit ADD, SUB, RSB.. etc...
 	Dies ist somit schneller 

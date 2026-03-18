@@ -1,4 +1,4 @@
-[[my-notes-site/content/htwsaar_pib/5 Semester/mikro/lectures/ARM7]]
+[[my-notes-site/content/htwsaar_pib/Semester 5/mikro/lectures/ARM7]]
 ### Definition von Symbolen mit EQU ( Equate)
 Mit der Pseudo Anweisung EQU kann man einen symbolischen namen definieren und ihm einen Wert zuweisen. Innerhalb eines Moduls ist solch eine Zuweisung nicht veränderbar.
 

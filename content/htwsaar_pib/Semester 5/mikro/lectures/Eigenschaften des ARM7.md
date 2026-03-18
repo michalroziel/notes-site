@@ -1,6 +1,6 @@
-[[my-notes-site/content/htwsaar_pib/5 Semester/mikro/lectures/ARM7]]
+[[my-notes-site/content/htwsaar_pib/Semester 5/mikro/lectures/ARM7]]
 
-## Im folgenden besprechen wir die Eigenschaften des [[my-notes-site/content/htwsaar_pib/5 Semester/mikro/lectures/ARM7]] Prozessors
+## Im folgenden besprechen wir die Eigenschaften des [[my-notes-site/content/htwsaar_pib/Semester 5/mikro/lectures/ARM7]] Prozessors
 
 
 
