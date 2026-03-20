@@ -1,0 +1,1 @@
+![[Ableitung1.png]]

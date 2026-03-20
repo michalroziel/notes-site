@@ -1,0 +1,1 @@
+Es ist ein elektronische Method, um Einheit und Unveränderheit der Nachrichten oder Daten zu bestätigen.
