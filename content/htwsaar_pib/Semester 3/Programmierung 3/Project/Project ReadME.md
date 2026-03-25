@@ -31,7 +31,7 @@ Die Jar Datei kann in einem gewählten Verzeichnis mittles :
 Durch unseren ***Copy-On-First-Run*** (Programmatischen) Ansatz wird ein [[Datenbank]]-Verzeichnis beim starten der JAR durch `[[Java]] -jar [...] ` erstellt, dort findet man anschließend die zu nutzende [[Datenbank]]. Wir haben uns hierfür entschieden, da wir die [[Datenbank]] gefüllt mitliefern möchten. 
 ## 4. CI / CD 
 Mittels GitHub workflows haben wir Continous Integration sowie Conitinous Deployment integriert. 
-Der Workflow `[[[[Maven]]]].yml` baut das [[Maven]] Projekt und führt [[remote-notes/sem3/mikro/Tests/Tests|Tests]] mit jedem *Push* aus. 
+Der Workflow `maven.yml` baut das [[Maven]] Projekt und führt [[remote-notes/sem3/mikro/Tests/Tests|Tests]] mit jedem *Push* aus. 
 Der Workflow `release.yml` baut das [[Maven]] Projekt, führt [[remote-notes/sem3/mikro/Tests/Tests|Tests]] aus.
 Nach dem die [[remote-notes/sem3/mikro/Tests/Tests|Tests]] ausgeführt wurden, wird das Tag `submission`sowie das dazugehöroge GitHub release erstellt.
 ## 5. Projektstruktur
@@ -98,6 +98,5 @@ Nach dem die [[remote-notes/sem3/mikro/Tests/Tests|Tests]] ausgeführt wurden, w
 ```
 
 ## 6. Tests
-Wir haben mittels JUNIT 5.11.4 [[remote-notes/sem3/mikro/Tests/Tests|Tests]] implementiert, diese können innerhalb src/[[test]] angeschaut und  mittels `[[[[Maven]]]] [[[[test]]]] `innerhalb des Terminals ausgeführt werden.
-
+Wir haben mittels JUNIT 5.11.4 [[remote-notes/sem3/mikro/Tests/Tests|Tests]] implementiert. Diese können innerhalb `src/test` angeschaut und mittels `mvn test` im Terminal ausgeführt werden.
 

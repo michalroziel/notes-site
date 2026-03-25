@@ -149,7 +149,7 @@ Documents            Movies               VirtualBox VMs       package.json
 
   
 
-![[/[[Untitled]] 4.png|[[Untitled]] 4.png]]
+![[Untitled 4.png]]
 
   
 

@@ -2,7 +2,7 @@
 
 # Secret-Key Verschlüsselung
 
-![[/[[Untitled]] 32.png|[[Untitled]] 32.png]]
+![[Untitled 32.png]]
 
   
 
@@ -14,4 +14,4 @@
 
 - Sicherer wie Secret-Key Verschlüsselung
 
-![[/[[Untitled 1]] 4.png|[[Untitled 1]] 4.png]]
+![[Untitled 1 4.png]]

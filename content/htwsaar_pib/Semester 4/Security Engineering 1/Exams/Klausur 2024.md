@@ -76,7 +76,7 @@ ln -s /usr/local/bin/ssh2 /usr/local/bin/ssh
 
 ### Was bedeutet das Kürzel aes-128-cbc?
 
-Dieses Kürzel ist ein ==**Verschlüsselungsverfahren**==, hierbei steht `aes` für `advanced [[[[Encryption]]]] system` . `CBC` bezieht sich auf `Cipher` `Blocking` `Chain`. Es handelt sich um eine 128 Bit verschlüsselung
+Dieses Kürzel ist ein ==**Verschlüsselungsverfahren**==. Dabei steht `aes` für `Advanced Encryption Standard`. `CBC` bezieht sich auf `Cipher Block Chaining`. Es handelt sich um eine 128-Bit-Verschlüsselung.
 
   
 
