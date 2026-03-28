@@ -1,5 +1,5 @@
 [[Programming 3]]
-![[PIB-PR3 - 06 Technische Schulden und Clean Code - v2024-10-29.pdf]]
+![[PIB-PR3 - 06 [[Technische Schulden und Clean Code]] - v2024-10-29.pdf]]
 # 1.1 Ausgangssituation 
 ```
 calc() -> calculateTotal()
@@ -50,3 +50,4 @@ Dieses enum ermöglicht uns customerType.equals("VIP"); zu vermeiden
 # 3.1 Ausgangssituation 
 
 # 4. Modernes Java 
+

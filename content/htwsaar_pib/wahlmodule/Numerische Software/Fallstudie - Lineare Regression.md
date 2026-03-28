@@ -1,4 +1,7 @@
 
+## Grundlegende idee
+
+Wir möchten eine Gerade zeichnen können, welche unsere Data Points am besten beschriebt, um unbekannte Data Points erkennen zu können.
 
 ## Notizen zur Präsentation 
 

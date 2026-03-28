@@ -1,10 +1,10 @@
 # Alkane und Alkine
 
-Alkane und Alkine gehören zu den `KohlenwasserStoffAtomen`, diese bestehen nur aus Kohlenstoff (`C`) und Wasserstoff (`H`).
+Alkane und Alkine gehören zu den `KohlenwasserStoffAtomen` , diese bestehen nur aus Kohlenstoff (`[[[[C]]]]`) und Wasserstoff (`H`).
 
 ### Der Unterschied
 
-Der Unterschied zwischen Alkanen und Alkinen liegt in den Bindungen zwischen den Kohlenstoff-Atomen (`C-C`).
+Der Unterschied zwischen Alkanen und Alkinen liegt in den Bindungen zwischen den Kohlenstoff-Atomen (`[[[[C]]]]-[[[[C]]]]`).
 
 Der Untershcied liegt in der Sättigung der Atome - d.h wie viele WasserstoffAtome an den Kohlenstoff gebunden sind.
 

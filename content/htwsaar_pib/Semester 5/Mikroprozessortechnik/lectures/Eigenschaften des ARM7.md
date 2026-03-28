@@ -1,6 +1,6 @@
-[[ARM7]]
+[[my-notes-site/content/htwsaar_pib/Semester 5/mikro/lectures/ARM7]]
 
-## Im folgenden besprechen wir die Eigenschaften des [[ARM7]] Prozessors
+## Im folgenden besprechen wir die Eigenschaften des [[my-notes-site/content/htwsaar_pib/Semester 5/mikro/lectures/ARM7]] Prozessors
 
 
 
@@ -29,7 +29,7 @@ Hardware [[Description]] Languages → VHDL , VERILOG
 ### Problematik bei Flip Flops : Metastabilität, Functional & instructional Hazards
 Es gibt ein kurzes Zeitfenster wo eine 0 auftritt, wo in der booleschen Algebra keine steht
 
-![[../Pasted image 20241022191121.png]]
+![[remote-notes/sem3/[[MIKRO]]/Pasted image 20241022191121.png]]
 
 - In den Usa gab es einen Hazard bei Toyota 
 - Beispiel des Zündfensters bei Benzin Motoren 

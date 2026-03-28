@@ -2,6 +2,20 @@
 title: Home
 ---
 
-# My Notes
+# Michał's Notes
 
-Welcome to my Quartz site.
+// 2026
+
+
+# Pharmazie Grundlagen    
+## Chemie  
+- [[Periodensystem]]  
+- [[Atommodelle]]  
+- [[Elektrochemie]]  
+- [[Säuren und Basen]]  
+  
+## Biologie  
+- [[Zelle - Pflanze & Tier]]  
+- [[Proteinbiosynthese]]  
+- [[Vererbungslehre]]  
+- [[Immunbiologie]]

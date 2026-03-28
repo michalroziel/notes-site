@@ -8,7 +8,10 @@ lineare_reg_start
 - Anzahl: `4`
 
 - dann: 
-	- `x=1, y=2 x=2, y=4 x=3, y=5 x=4, y=8`
+	- `x=1, y=2 
+	- `x=2, y=4 `
+	- `x=3, y=5 `
+	- `x=4, y=8`
 
 
 **2. Regressionsmenü**

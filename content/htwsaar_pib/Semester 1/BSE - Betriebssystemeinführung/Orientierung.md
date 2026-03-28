@@ -87,7 +87,7 @@ ls -lR -> ausführliche variante Rekursiv
 
 ## Root Verzeichnis
 
-![[Untitled 3.png]]
+![[/[[Untitled]] 3.png|[[Untitled]] 3.png]]
 
   
 
@@ -130,7 +130,7 @@ baobab
 
   
 
-![[Untitled 1.png]]
+![[[[Untitled 1]].png]]
 
   
 
